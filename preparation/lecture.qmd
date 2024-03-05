@@ -4,7 +4,7 @@ author: SatoshiTerasaki@AtelierArith
 format:
   revealjs:
     theme: "black"
-    css: "style.css"
+    css: "../styles/style.css"
     slide-number: true
     mermaid:
       theme: default

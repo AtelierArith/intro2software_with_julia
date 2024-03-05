@@ -4,7 +4,7 @@ author: SatoshiTerasaki@AtelierArith
 format:
   revealjs:
     theme: "black"
-    css: "style.css"
+    css: "../styles/style.css"
     embed-resources: true
     slide-number: true
     show-notes: separate-page
@@ -74,7 +74,7 @@ julia> π # \pi TAB
 julia> α, β, ..., ζ # \alpha TAB
 julia> x₁, x², xᵢ₍ⱼ₊₁₎
 julia> xₘᵢₙ, xₘₐₓ, xᴺ
-julia> x̂ # x\hat TAB 
+julia> x̂ # x\hat TAB
 ```
 
 ---
@@ -256,7 +256,7 @@ to install Julia 1.10.2+0.x64.apple.darwin14 and update the `release` channel to
 
 ---
 
-## Pluto 
+## Pluto
 
 ```julia
 julia> using Pkg; Pkg.add("Pluto")

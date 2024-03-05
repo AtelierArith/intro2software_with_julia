@@ -4,7 +4,7 @@ author: SatoshiTerasaki@AtelierArith
 format:
   revealjs:
     theme: "black"
-    css: "style.css"
+    css: "../styles/style.css"
     embed-resources: true
     slide-number: true
     show-notes: separate-page
