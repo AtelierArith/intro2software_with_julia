@@ -28,5 +28,5 @@ GitHub の使い方について触れる．また GitHub は他者とのコラ�
 - [Part1](part1/lecture.qmd)
   - [OkinawaCompPhysFoodSurvey2024.jl](https://atelierarith.github.io/OkinawaCompPhysFoodSurvey2024.jl/dev/)
 - [Part2](part2/lecture.qmd)
-  - [TBD](https://atelierarith.github.io/OkinawaCompPhysFoodSurvey2024.jl/dev/)
+  - [intro2software_with_julia_pluto_materials](https://github.com/AtelierArith/intro2software_with_julia_pluto_materials)
 - [Preparation](preparation/lecture.qmd)
