@@ -1,0 +1,161 @@
+---
+title: Juliaを使ったソフトウェア開発入門<br>予習資料
+author: SatoshiTerasaki@AtelierArith
+format:
+  revealjs:
+    theme: "black"
+    css: "style.css"
+    slide-number: true
+    mermaid:
+      theme: default
+    gfm:
+    mermaid-format: png
+---
+
+## 忙しい？
+
+このページだけでも読んで...
+
+- 必須
+  - Julia コマンド `julia`
+  - Python コマンド `python`, `pip3 install jupyter`, `jupyter noteobook`
+  - Git コマンド `git`
+  - GitHub アカウント取得
+- 任意
+  - JuliaHub アカウント取得
+  - Docker コマンド `docker`
+  - VS Code コマンド `code`
+  - Quarto コマンド `quarto`
+
+---
+
+## なんで予習が必要なのさ（プンスコ）
+
+- 会場は多くの方が利用します．回線が細くなる可能性が大だから
+  - 去年はこれで多くの方が脱落しました
+- 必要なソフトはなるべくインストールしてきて
+
+---
+
+## 受講者へのお願い
+
+- 周りに困ってる人がいたら助けてあげて
+  - みんなナカマ・コワクナイヨ
+- わかんなかったら Slack で聞いて！
+
+---
+
+## 事前に入れてほしいもの（必須）
+
+- すでに `julia`, `python`, `pip`, `jupyter` とかのコマンドを触ったことがある方はスキップしてOK
+
+- Julia
+  - 1日目の講義に使います
+  - `juliaup` で入れると幸せになる
+  - [九州の公演資料も参考にしてね](https://atelierarith.github.io/julia_tutorial/slideshow/getting_started/build/#1)
+
+---
+
+## Julia のインストール確認
+
+`julia` というコマンドをターミナルで実行して次のような REPL が出たら次のページへ進む
+
+```
+               _
+   _       _ _(_)_     |  Documentation: https://docs.julialang.org
+  (_)     | (_) (_)    |
+   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 1.10.1 (2024-02-13)
+ _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
+|__/                   |
+
+julia>
+```
+
+---
+
+## パッケージの導入（推奨）
+
+- 下記のコードをコピーして REPL (前のページを参照)に貼り付ける．
+    - マウスを下記のコードにフォーカスを当てると右側にクリップボード（四角い形状のアイコン)が出る.
+
+```julia
+using Pkg
+Pkg.add(["Revise", "BenchmarkTools", "ReTestItems", "Pluto", "PlutoUI"])
+Pkg.add(["Plots", "ITensors", "Images", "StaticArrays", "DifferentialEquations", "LoopVectorization", "PythonCall", "PythonPlot", "PyCall", "IJulia"])
+```
+
+---
+
+## Git のインストール
+
+- `git` コマンドが使えればOK
+- macOS ユーザは XCode のインストールが必要かもしれません
+- Windows ユーザは WSL2 の使用も検討してください
+  - https://learn.microsoft.com/ja-jp/windows/wsl/install
+
+---
+
+## GitHub アカウントの取得（必須）
+
+- すでに持ってる方は何もする必要はない（次のページへ）
+  - (無料で取得できる複数アカウントは規約上できないため)
+
+- 持ってない人は https://github.com/ にアクセスしてアカウントを取得
+  - 人に見られても恥ずかしくないユーザ名にする
+    - IT 企業だと GitHub や SNS のアカウント名で名前を呼び合う文化もあるため
+  - [2 要素認証を設定する](https://docs.github.com/ja/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+    - セキュリティ強化目的．アカウントの乗っ取りを防ぐため
+
+---
+
+## JuliaHub のアカウント取得
+
+無料で１ヶ月あたり二十時間まで使えるらしい
+
+1. https://juliahub.com/ にアクセス
+1. `Start For Free ->` という青色のボタンを押す
+1. Continue with GitHub というボタンを押してアカウント取得
+1. GitHub と連携したくない場合は Continue with Email などその他の選択肢を選んでもOK
+1. 気持ちに余裕があれば https://help.juliahub.com/juliahub/stable/tutorials/pluto_notebooks/#Pluto-Notebooks を読んで遊んでみると良い
+
+---
+
+## 事前に入れてほしいもの（推奨）
+
+- どうせ他の講義でも使うだろうし入れておこう
+  - ~~いつやるの？今でしょ！~~
+- Python
+  - 他の講義でも使うので入れておくと良い
+- [Visual Studio Code](https://code.visualstudio.com/)
+  - 使い慣れているエディタがあれば不要
+  - GPU ハンズオンの SSH 先でファイルの編集が必要になる．
+    - extension は結構重いから事前に入れておいてね
+
+---
+
+## 事前に入れてほしいもの（推奨）
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+  - `docker` コマンドが使えるようになってれば O.K.
+  - 下記のコマンドを試してみよう
+
+```sh
+$ docker pull julia
+$ docker pull python
+$ docker pull ubuntu
+```
+
+---
+
+## その他
+
+https://quarto.org/docs/get-started/
+https://github.com/typst/typst
+
+---
+
+## お疲れんこん
+
+(お疲れ様でした)

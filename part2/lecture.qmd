@@ -1,0 +1,330 @@
+---
+title: Juliaを使ったソフトウェア開発入門
+author: SatoshiTerasaki@AtelierArith
+format:
+  revealjs:
+    theme: "black"
+    css: "style.css"
+    embed-resources: true
+    slide-number: true
+    show-notes: separate-page
+    mermaid:
+      theme: default
+    gfm:
+    mermaid-format: png
+---
+
+## 概要
+
+- ソフトウェア入門講義
+  - 数値計算をはじめとする研究用のプログラム
+  - プログラムを書くための便利なツールやサービス
+
+### お品書き
+
+- 前半: 使う側として使いこなす
+- 後半: 作る側として使いこなす
+  - プログラミング言語として Julia を中心に進める
+  - 余裕があれば Python もやるかも
+
+---
+
+## 受講者へのお願い
+
+- 適宜質問して
+  - ディスカッションして
+    - GitHub の Issue/Discussion を利用して
+    - Issue 作って
+- 誤り・誤植があったらこっそり直して
+  - Pull Request を送ってください
+- 周りに困ってる人がいたら助けてあげて
+  - 参加者の専門・学年・プログラミング経験はみんな違う．
+  - みんなナカマ・コワクナイヨ
+
+---
+
+## ここでの Julia とは
+
+- プログラミング言語の一つ
+- 2012 年 Why We Created Julia に発表. 開発は 2009 年ごろから
+  - Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and Alan Edelman
+  - 冒頭で In short, because we are greedy. とあるように既存のプログラミング言語の良いところを取り入れた言語
+- 高級言語の開発体験と実行速度の両立を図っている:
+  - [Why We Created Julia](https://julialang.org/blog/2012/02/why-we-created-julia/)
+    - `We want the speed of C with the dynamism of Ruby`
+    - `(Did we mention it should be as fast as C?)`
+
+---
+
+## Julia の良いところ
+
+- Unicode 文字が変数として使える
+
+```julia
+julia> pi
+π = 3.1415926535897...
+
+julia> π # \pi TAB
+π = 3.1415926535897...
+```
+
+他にも
+
+```julia
+julia> α, β, ..., ζ # \alpha TAB
+julia> x₁, x², xᵢ₍ⱼ₊₁₎
+julia> xₘᵢₙ, xₘₐₓ, xᴺ
+julia> x̂ # x\hat TAB 
+```
+
+---
+
+## Julia の良いところ
+
+- インストールが容易
+  - 高速なプログラムを書くために「別のプログラミング言語を使う選択」を強制させない
+- 多重ディスパッチによる柔軟なインターフェースの提供
+- Python などの他の言語との連携
+  - すでにあるものはありがたく使おう
+  - 徐々に Pure Julia なもパッケージも増えている
+- パッケージ開発参加への参入しやすさ
+  - コードは GitHub などのプラットフォーム上で OSS として公開されている
+  - Git リポジトリによるローカルレジストリ
+
+---
+
+## 2024 年時点での状況
+
+- 2024 年 Julia 1.10.2 が最新安定版
+- 1.9 系から TTFL, TTFX 問題が改善されている
+
+```julia
+julia> ttfl = @elapsed using Plots
+julia> ttfx = @elapsed display(plot(sin))
+```
+
+| version | ttfl | ttfx |
+|---|---|---|
+| 1.8.5 | 4.087831943 | 4.493850074 |
+| 1.9.4| 1.865882906 | 0.586155723 |
+| 1.10.2 | 1.087610856 | 0.568768117 |
+
+---
+
+## 計測方法
+
+`julia +1.8`, `julia +1.9`, `julia +1.10` で各々対応するバージョンの Julia REPL を起動後下記を実行する:
+
+
+```julia
+julia> using Pkg; Pkg.activate(; temp=true); Pkg.add(name="Plots", version="1.39.0"); ttfl = (@elapsed using Plots); (ttfx = @elapsed display(plot(sin))); @show (ttfl, ttfx)
+```
+
+---
+
+## Julia のインストール
+
+Windows ユーザ
+
+```
+winget install julia -s msstore
+```
+
+macOS, Linux, WSL2 ユーザ
+
+```
+curl -fsSL https://install.julialang.org | sh
+```
+
+`julia` と `juliaup` というコマンドが使用できる
+
+---
+
+## 動作確認
+
+Hello World を表示
+
+```julia
+$ julia
+               _
+   _       _ _(_)_     |  Documentation: https://docs.julialang.org
+  (_)     | (_) (_)    |
+   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 1.10.2 (2024-03-01)
+ _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
+|__/                   |
+
+julia> println("Hello World")
+Hello World
+
+julia> println("Hello"); println("World")
+Hello
+World
+
+julia> print("Hello"); print(" "); println("World")
+Hello World
+
+julia> # println は末尾に改行を挿入する．Python の print 相当
+```
+
+---
+
+## その他
+
+最低限の動作確認
+
+```console
+$ julia --version
+julia version 1.10.2
+```
+
+動作環境の表示
+
+```
+julia> versioninfo()
+Julia Version 1.10.2
+Commit bd47eca2c8a (2024-03-01 10:14 UTC)
+Build Info:
+  Official https://julialang.org/ release
+Platform Info:
+  OS: macOS (x86_64-apple-darwin22.4.0)
+  CPU: 16 × Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+  WORD_SIZE: 64
+  LIBM: libopenlibm
+  LLVM: libLLVM-15.0.7 (ORCJIT, skylake)
+Threads: 1 default, 0 interactive, 1 GC (on 16 virtual cores)
+Environment:
+  JULIA_EDITOR = subl
+  JULIA_PROJECT = @.
+
+julia>
+```
+
+---
+
+## アップデートは定期的に
+
+- `1.10` 系が現時点で最新安定版. 今後 `1.11` がリリースされたらバージョンを上げていきましょう
+
+```console
+$ julia
+The latest version of Julia in the `release` channel is 1.10.2+0.x64.apple.darwin14. You currently have `1.10.1+0.x64.apple.darwin14` installed. Run:
+
+  juliaup update
+
+to install Julia 1.10.2+0.x64.apple.darwin14 and update the `release` channel to that version.
+```
+
+- `juliaup update` すればいい感じにセットアップしてくれる．
+
+---
+
+## Juliaup を使うメリット
+
+- `juliaup update` でデフォルトで使用する Julia をアップデートしてくれる
+- `juliaup add 1.8 && julia +1.8` で Julia 1.8 を使用できる
+
+---
+
+## いろんな場所で Julia は動く
+
+- 皆さんがお持ちのマシンは [Tier 1](https://julialang.org/downloads/#supported_platforms) なはず
+  - 64 bit Raspberry Pi OS での Raspberry Pi 4, 5 でも動く
+  - [LatticeQCD.jl](https://github.com/akio-tomiya/LatticeQCD.jl) のテストは通りました
+    - 結構すごいことだと思うよ
+- [Amazon SageMaker Studio Lab](https://aws.amazon.com/jp/sagemaker/studio-lab/), [Vertex AI](https://cloud.google.com/vertex-ai-notebooks) など SSH 接続や Jupyter Notebook を使えるインスタンスを提供するプラットフォーム
+- [GitHub Codespaces](https://github.co.jp/features/codespaces)
+- Docker イメージが配布されてるのでカスタマイズもできる
+- JuliaHub (一番楽)
+
+---
+
+### 要するに
+
+好きな環境で遊びな！
+
+---
+
+## JuliaHub
+
+- VS Code ライクな UI で利用できる SaaS
+- Pluto Notebook を立ち上げることができる
+- 20 時間の無料枠
+- 会場のインターネットが不安定な場合はこっちを使ってみるといいかも
+- アカウントはこちらから作れます https://juliahub.com/
+
+---
+
+## Pluto 
+
+```julia
+julia> using Pkg; Pkg.add("Pluto")
+julia> using Pluto; Pluto.run()
+```
+
+リアクティブなのが特徴
+
+---
+
+## IJulia
+
+```julia
+julia> using Pkg; Pkg.add("IJulia")
+julia> using IJulia; IJulia.installkernel("julia")
+```
+
+クラウド環境で↑を実行すれば Julia のカーネルがインストールされる
+
+---
+
+## jupytext
+
+```console
+$ pip3 install jupytext
+$ jupytext --to ipynb sample.jl # jl から ipynb を作る
+$ jupytext --to jl sample.ipynb # ipynb から jl に変換
+```
+
+```console
+$ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行して ipynb を作る
+```
+
+`--set-kernel` を使ってカーネルを指定できる
+
+---
+
+## Jupyter Notebook じゃだめなのか？
+
+
+
+---
+
+## 微分方程式のソルバーの実装
+
+多重ディスパッチ
+
+---
+
+## フラクタル
+
+型安定
+メモリアロケーション
+ベンチマーク
+
+---
+
+## アトラクタ
+
+お遊び
+
+---
+
+## 弾性衝突の例
+
+余裕がある人向け
+
+---
+
+## まとめ
+

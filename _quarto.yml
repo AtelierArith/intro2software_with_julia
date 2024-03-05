@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "計算物理春の学校 2024"
+  navbar:
+    left:
+      - href: part1/lecture.qmd
+        text: Part1
+      - href: part2/lecture.qmd
+        text: Part2
+      - href: preparation/lecture.qmd
+        text: 予習資料
+
+format:
+  html:
+    # theme: cosmo
+    css: styles.css
+    toc: true
