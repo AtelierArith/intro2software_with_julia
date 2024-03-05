@@ -93,336 +93,336 @@
   {
     "objectID": "part1/lecture.html#概要",
     "href": "part1/lecture.html#概要",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "概要",
     "text": "概要\n\nソフトウェア入門講義\n\n数値計算をはじめとする研究用のプログラム\nプログラムを書くための便利なツールやサービス\n\n\nお品書き\n\n前半: 使う側として使いこなす\n後半: 作る側として使いこなす\n\nプログラミング言語として Julia を中心に進める\n余裕があれば Python もやるかも"
   },
   {
     "objectID": "part1/lecture.html#自己紹介",
     "href": "part1/lecture.html#自己紹介",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "自己紹介",
     "text": "自己紹介\n\nSatoshiTerasaki\n\nGitHub: @terasakisatoshi\n\nAtelierArith は個人事業主の屋号\n\n読み方: アトリエアリス，漢字だと「算術工房」かな？\n個人の立場で話す時に使っている\n\n画像系の機械学習モデル開発・アプリケーション開発\n\nC++/Python などで\n\n最近は Julia を書いている\n\n数値計算ライブラリの高速化\n大学の研究室の開発基盤の整備"
   },
   {
     "objectID": "part1/lecture.html#受講者へのお願い",
     "href": "part1/lecture.html#受講者へのお願い",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "受講者へのお願い",
     "text": "受講者へのお願い\n\n適宜質問して\n\nディスカッションして\n\nGitHub の Issue/Discussion を利用して\nIssue 作って\n\n\n誤り・誤植があったらこっそり直して\n\nPull Request を送ってください\n\n周りに困ってる人がいたら助けてあげて\n\n参加者の専門・学年・プログラミング経験はみんな違う．\nみんなナカマ・コワクナイヨ"
   },
   {
     "objectID": "part1/lecture.html#皆さんを取りまく環境",
     "href": "part1/lecture.html#皆さんを取りまく環境",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "皆さんを取りまく環境",
     "text": "皆さんを取りまく環境\n\n計算機の進化\n\nCPU, GPU がパワーアップ\nAI/Deep Learning と呼ばれるのような分野を発展させている\n\nインターネットの進化\n\n知識の伝搬・取得が容易になってきた\n世界中の人とコミュニケーションが取れる\n\n道具の整備\n\nプログラミング言語，開発環境が快適に\n\n従来困難だったことができるようになってきた．\n\nできることが増えてきた"
   },
   {
     "objectID": "part1/lecture.html#できることが増えると",
     "href": "part1/lecture.html#できることが増えると",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "できることが増えると",
     "text": "できることが増えると\n\nできることが増える\n\n\nやってみたくなる\n\n\nできた！\n\n\n今までできなかったことができる\n\n\nできることが増える(おやおや？)\n\n\nやってみたくなる(おやおや？)\n\n\nできた！(なんと！)\n\n\n今までできなかったことができる(素晴らしい?)\n\n\nできることが増える(無限ループ)\n\n\nこの無限ループの繰り返し速度がものすごく速くなっている"
   },
   {
     "objectID": "part1/lecture.html#さらに人類は欲張りなので",
     "href": "part1/lecture.html#さらに人類は欲張りなので",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "さらに人類は欲張りなので",
     "text": "さらに人類は欲張りなので\n\nできることが増える（憧れは止められないんだ！）\n\n\nやらなければいけないことが増える\n\n\n煩雑になる\n\n\n大変だ！\n\n\nそうだ，楽をしよう\n\n\n効率化しよう\n\n\n楽にする道具が生まれる\n\n\n作られた道具で楽になる\n\n\n新しい人の参入障壁が減る\n\n\nもっと楽にしたいぞ！"
   },
   {
     "objectID": "part1/lecture.html#さらに人類は欲張りなので-1",
     "href": "part1/lecture.html#さらに人類は欲張りなので-1",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "さらに人類は欲張りなので",
     "text": "さらに人類は欲張りなので\n\nもっと楽にしたいぞ！\n\n\nそうだ，楽をしよう, 効率化しよう (おやおや？)\n\n\n楽にする道具が生まれる\n\n\n楽をするために作った道具を前提とする開発手法が進む\n\n\nその道具を使いこなす必要がある（やな予感）\n\n\n便利な道具の存在を知らないと苦労する\n\n\n道具の使い方を知らないと参入できない\n\n\n道具の存在が自明になり伝え手がいないコミュニティは苦労する\n\n\nいろいろ便利になったけれどいろいろ大変な状況（イマココ）"
   },
   {
     "objectID": "part1/lecture.html#さらにみんなにとって大変なこと",
     "href": "part1/lecture.html#さらにみんなにとって大変なこと",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "さらにみんなにとって大変なこと",
     "text": "さらにみんなにとって大変なこと\n\n今まで触れたことはソフトウェアにフォーカスした話\n\n大変なので専門職（ソフトウェアエンジニア）がある\nさらに細分化が進んでいる\n\n機械学習エンジニア\nデータサイエンティスト\n\n\n皆さんは物理学という分野を理解しないといけない\n\n難しい領域でのソフトウェアを書かなければいけない．\n数式をコードに落とし込む数値計算のスキルも必要"
   },
   {
     "objectID": "part1/lecture.html#つまり",
     "href": "part1/lecture.html#つまり",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "つまり?",
     "text": "つまり?\n下記の両立をし研究活動をする必要がある\n\n自分の専門領域を理解する（サイエンススキル）\n効率よく道具を使う・作る（エンジニアリングスキル）\n\n\n\n\n専門領域\nソフトウェア\n\\(\\oplus\\)\nlimit t \\(\\rightarrow \\infty\\)\n\n\n\n\n大変\n大変\n超大変\n☠️\n\n\nつらい\nつらい\n超つらい\n☠️\n\n\n楽しい\n無関心\n苦しい\n超つらい\n\n\n無関心\n楽しい\n苦しい\n超つらい\n\n\n楽しむ\n楽しむ\n楽しい\n超楽しい"
   },
   {
     "objectID": "part1/lecture.html#専門領域にフォーカスしたいぞ",
     "href": "part1/lecture.html#専門領域にフォーカスしたいぞ",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "専門領域にフォーカスしたいぞ",
     "text": "専門領域にフォーカスしたいぞ\n\n気持ちはわかる\n効率の悪いワークフローで仕事を進めて”非効率”なまま仕事を進めている人を観測する\n\nプログラムの実行速度が十分に出ない\n道具を十分に使いこなせてない（存在を知らない）\n道具の作り手・プロが意図しないワイルドな使い方をする\n\n他者が開発に参入できない\n他の人がマジで困る\n\n研究の進行速度がトータルで遅くなる可能性"
   },
   {
     "objectID": "part1/lecture.html#困る例-1",
     "href": "part1/lecture.html#困る例-1",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "困る例",
     "text": "困る例\n\n割り切りも大事だが乱暴な使い方は控えてほしい\n\n共同開発において何も考えずに git push origin main -f みたいなのをされるのも困る\n巨大なデータをコミットされても困る\n\n構造化をしない\n\nmain にベタ書き\nパラメータのハードコーディング\np = 1.429967 # なんだこれは？"
   },
   {
     "objectID": "part1/lecture.html#プログラミングは誰でもできる",
     "href": "part1/lecture.html#プログラミングは誰でもできる",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "プログラミングは誰でもできる？",
     "text": "プログラミングは誰でもできる？\n\n任意の人が物理学をあなた程度理解できると思い込んでいるぐらい愚か\n\n仮に真の場合，あなたの知識・専門性にどれだけの価値があるのか？\n\n誰でも書けるかというとそうではない\n\n私が「物理なんて簡単www誰でもできるでしょ？」っていうと皆さん内心どこかで怒るでしょ？それと一緒"
   },
   {
     "objectID": "part1/lecture.html#プログラミングは誰でもできる-1",
     "href": "part1/lecture.html#プログラミングは誰でもできる-1",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "プログラミングは誰でもできる？",
     "text": "プログラミングは誰でもできる？\n\nわからないことを解決できる身近な人（先輩や指導教官，メンター）の存在がキーになってくる\n\n環境は大事\n\n努力は必要\n\n「ちょっと考えたらできる」を具体的に「ちゃんとできることを示す」まで行う細部を埋める労力は非自明\nエラーメッセージと向き合って解決する気力\n諦めない根気づよさ，知的な体力\n\n計算機の知識，計算機を触る道具を正しく使いこなすのが大事\n\nただそれはそれで難しい"
   },
   {
     "objectID": "part1/lecture.html#不寛容な態度は自分の首を絞める",
     "href": "part1/lecture.html#不寛容な態度は自分の首を絞める",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "不寛容な態度は自分の首を絞める",
     "text": "不寛容な態度は自分の首を絞める\n\n他の分野に無関心な態度は他者から見たあなたの分野・研究にたいするそれとして返ってくる\n他の分野に対するリスペクトを持ちましょう\n\nそれができるだけでもだいぶ社会で生きやすくなる"
   },
   {
     "objectID": "part1/lecture.html#そうはいうけれどめんどい",
     "href": "part1/lecture.html#そうはいうけれどめんどい",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "そうはいうけれどめんどい",
     "text": "そうはいうけれどめんどい\n\nエンジニアリングなんて泥臭い，嫌い\n\n言いたいことはわかる\n口だけで手を動かさない人は嫌われる\n\n面倒なことはカネで解決できる\n\n金をもらえれなやる人はいる"
   },
   {
     "objectID": "part1/lecture.html#どうすればいいか",
     "href": "part1/lecture.html#どうすればいいか",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "どうすればいいか？",
     "text": "どうすればいいか？\n\n出世をする\n石油を掘る\nまたは自分が努力する(現実解)\n\n将来の皆様へ\n\nお仕事お待ちしております"
   },
   {
     "objectID": "part1/lecture.html#民間だと",
     "href": "part1/lecture.html#民間だと",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "民間だと",
     "text": "民間だと\n\n民間だと専門職としての社会的地位がある\n\nそれぐらい高度なもの\n\nさらに細分化して &lt;ほにゃらら&gt;エンジニア という名前がついている\n研究・アルゴリズム開発，機械学習，Web（フロントエンド，バッグエンド），アプリ開発，インフラ，品質管理などなど\n\n\nそういったスキルを皆さんは研究を進めながら身につけないといけない\n繰り返しになるけれど学生の皆さんは結構大変なことをしている"
   },
   {
     "objectID": "part1/lecture.html#ということでやってみよう",
     "href": "part1/lecture.html#ということでやってみよう",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "ということでやってみよう",
     "text": "ということでやってみよう\n\nみんなで作るご飯データベース\nGitHub で公開されているリポジトリに対してプルリクエストを送る\n\nお題\n\nWordCloud でお勧めのご飯をサジェストする\nせっかくなので沖縄関連のものがいいなぁ\n\nOkinawaCompPhysfoodurvey2024.jl\n\n物理とは程遠いけれど多くの概念を習得できるはず．"
   },
   {
     "objectID": "part1/lecture.html#何をすればいいのか",
     "href": "part1/lecture.html#何をすればいいのか",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "何をすればいいのか？",
     "text": "何をすればいいのか？\n\nわかる人向け\n\nフォークして，プルリク送って．詳しくは README.md を読んで\n\n\n以上"
   },
   {
     "objectID": "part1/lecture.html#何をすればいいのか-1",
     "href": "part1/lecture.html#何をすればいいのか-1",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "何をすればいいのか？",
     "text": "何をすればいいのか？\n\nもう少し詳しく\n\nリポジトリをフォーク\nREADME.md にある説明を読む\npoll/&lt;your-gh-name&gt;/food/Data.toml を作成・編集\nプルリクエストを送る"
   },
   {
     "objectID": "part1/lecture.html#な何をすればいいのか",
     "href": "part1/lecture.html#な何をすればいいのか",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "な，何をすればいいのか？",
     "text": "な，何をすればいいのか？\n\nリポジトリをフォーク\nフォークしたリモートリポジトリをローカル環境にクローン\nREADME.md を読む\ngit switch -c &lt;your-gh-name&gt;/okinawa-food\ngit add poll/&lt;your-gh-name&gt;/food/Data.toml\ngit commit -m \"add Data.toml\"\ngit push origin &lt;your-gh-name&gt;/okinawa-food\nプルリクエストを送る"
   },
   {
     "objectID": "part1/lecture.html#キューンω",
     "href": "part1/lecture.html#キューンω",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "キューン(´；ω；｀) ???",
     "text": "キューン(´；ω；｀) ???\n\nアザラシ状態（困った状態）になった場合\n\nもう少し詳しく説明しますね（次のページ）\n\nGitHub Docs の About version control and Git なども参考にどうぞ"
   },
   {
     "objectID": "part1/lecture.html#git",
     "href": "part1/lecture.html#git",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "Git",
     "text": "Git\n\n皆さんが今後目にするであろう多くのソフトウェアは何かしらのバージョン管理システムでソースコードを管理している．\n\n例えば Git\n\n次のような情報を管理している\n\nどのような変更をしたか\nいつ行ったか\n誰が\nなぜ（コミットメッセージ）"
   },
   {
     "objectID": "part1/lecture.html#リポジトリ",
     "href": "part1/lecture.html#リポジトリ",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "リポジトリ",
     "text": "リポジトリ\n\nソースコード，変更履歴を含めたもの\nAbout repositories を参考\nGit の場合，リポジトリをローカル環境（手元）にダウンロードして履歴の調査・コードの変更（追加・修正）を行うことができる．(ローカルリポジトリ)\ngit push でローカルリポジトリからリモートリポジトリ（リモート環境にあるリポジトリ）に変更を加えることができる．\nローカル環境で行った各自の修正結果はリモートリポジトリに取り込まれる"
   },
   {
     "objectID": "part1/lecture.html#github",
     "href": "part1/lecture.html#github",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "GitHub",
     "text": "GitHub\n\nリモートリポジトリを管理する必要がある．\nリモートリポジトリをホスティングするプラットフォームとして GitHub がある\n\n他にも GitLab や Bitbucket などがある\nどれがいいかは要件次第"
   },
   {
     "objectID": "part1/lecture.html#github-のサービス",
     "href": "part1/lecture.html#github-のサービス",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "GitHub のサービス",
     "text": "GitHub のサービス\n\nIssue\n\n開発の TODO を管理\nバグレポート\n\nPull Request\n\n変更を取り込む際に使う\n\nGitHub Actions\n\n自動テストをはじめとする様々な作業を自動化してくれる\n\nその他 Discussion, Wiki, Project などがある"
   },
   {
     "objectID": "part1/lecture.html#例",
     "href": "part1/lecture.html#例",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "例",
     "text": "例\n\nこのスライドは lecture.qmd というテキストファイルから生成されています\nlecture.qmd をソースコードとして管理\ngit commit で変更を記録\ngit push で GitHub で管理しているリポジトリを更新\ngit push によるトリガーからスライド生成をするコマンドを実行\n皆さんは特定の URL から入手\nQuarto 便利ですねぇ（独り言）"
   },
   {
     "objectID": "part1/lecture.html#履歴コミットブランチ",
     "href": "part1/lecture.html#履歴コミットブランチ",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "履歴・コミット・ブランチ",
     "text": "履歴・コミット・ブランチ\n\n変更はコミットという単位でおこなわれる\n\n朝起きる\n歯を磨いて\n着替えて\n荷物を持って\nホテルにPCを忘れたので回収\n春の学校出席\n\n変更の系列をブランチと呼んでいる"
   },
   {
     "objectID": "part1/lecture.html#履歴コミットブランチ-1",
     "href": "part1/lecture.html#履歴コミットブランチ-1",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "履歴・コミット・ブランチ",
     "text": "履歴・コミット・ブランチ\nTODO: Mermaid 記法で説明をする\n\n変更はコミットという単位でおこなわれる\n\n朝起きる\n歯を磨いて\n着替えて\n荷物を持って\nホテルにPCを忘れたので回収\n春の学校出席\n\n変更の系列をブランチと呼んでいる"
   },
   {
     "objectID": "part1/lecture.html#ハンズオン",
     "href": "part1/lecture.html#ハンズオン",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "ハンズオン",
     "text": "ハンズオン"
   },
   {
     "objectID": "part1/lecture.html#wordcloud.jl",
     "href": "part1/lecture.html#wordcloud.jl",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "WordCloud.jl",
     "text": "WordCloud.jl"
   },
   {
     "objectID": "part1/lecture.html#fork",
     "href": "part1/lecture.html#fork",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "Fork",
     "text": "Fork\n\n皆さんには書き込み権限がない\n変更を加えたいリポジトリをコピーする（これがフォークすること）"
   },
   {
     "objectID": "part1/lecture.html#各自がすること",
     "href": "part1/lecture.html#各自がすること",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "各自がすること",
     "text": "各自がすること\n\nフォークしたリポジトリは編集ができる\nクローン\nブランチを作る\n次のページへ"
   },
   {
     "objectID": "part1/lecture.html#julia-をインストールされた方は",
     "href": "part1/lecture.html#julia-をインストールされた方は",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "Julia をインストールされた方は",
     "text": "Julia をインストールされた方は\ngit clone ...\ncd ...\njulia --project interactive.jl\ngit switch -c \"&lt;your-gh-name&gt;/okinawa-food\"\ncat polls/&lt;your-gh-name&gt;/food/Data.toml"
   },
   {
     "objectID": "part1/lecture.html#素朴に編集をする場合",
     "href": "part1/lecture.html#素朴に編集をする場合",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "素朴に編集をする場合",
     "text": "素朴に編集をする場合\nmkdir -p polls/&lt;your-gh-name&gt;/food\npolls/&lt;your-gh-name&gt;/food/Data.toml\nitems=[\"ヤギの刺身\"]"
   },
   {
     "objectID": "part1/lecture.html#ブランチ作成コミットプッシュ",
     "href": "part1/lecture.html#ブランチ作成コミットプッシュ",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "ブランチ作成・コミット・プッシュ",
     "text": "ブランチ作成・コミット・プッシュ\n$ git switch -c \"&lt;your-gh-name&gt;/okinawa-food\"\n$ git add poll/&lt;your-gh-name&gt;/food/Data.toml\n$ git commit -m \"add Data.toml\"\n$ git push origin &lt;your-gh-name&gt;/okinawa-food"
   },
   {
     "objectID": "part1/lecture.html#ブランチを作る理由",
     "href": "part1/lecture.html#ブランチを作る理由",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "ブランチを作る理由",
     "text": "ブランチを作る理由\n\n自分だけがリポジトリに手を入れるわけではない\n他の人と共同開発をするために必要\n一時的なパラレルワールドを作り自分の変更履歴をそこに追加"
   },
   {
     "objectID": "part1/lecture.html#競合する可能性について",
     "href": "part1/lecture.html#競合する可能性について",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "競合する可能性について",
     "text": "競合する可能性について\n\n今回は各自の専用のディレクトリ・ファイルを作成させた\n\npoll/&lt;your-gh-name&gt;/food/Data.toml\nコンフリクトは起きないはず"
   },
   {
     "objectID": "part1/lecture.html#git-add",
     "href": "part1/lecture.html#git-add",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "git add",
     "text": "git add\n\nこれから変更するスナップショットを作成（ディレクトリ，ファイル，行単位で可能）\nスナップショットを作成するためにステージングと呼ばれる一時領域に変更内容を追加する"
   },
   {
     "objectID": "part1/lecture.html#git-commit",
     "href": "part1/lecture.html#git-commit",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "git commit",
     "text": "git commit\n\ngit add で追加したステージングからスナップショットを作成(コミット)"
   },
   {
     "objectID": "part1/lecture.html#git-push",
     "href": "part1/lecture.html#git-push",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "git push",
     "text": "git push\n\nローカルリポジトリの変更を自分の管理しているリモートリポジトリにプッシュ\norigin は各自のリモートリポジトリを参照している\ngit remote get-url origin で確認できる"
   },
   {
     "objectID": "part1/lecture.html#プルリクエスト",
     "href": "part1/lecture.html#プルリクエスト",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "プルリクエスト",
     "text": "プルリクエスト\n\nブランチから別のブランチに一連の変更をマージする提案のこと\n\nGitHub Docs の pull requests について を参照\n\n各自のリモート環境にあるブランチをAtelierArithが管理しているリポジトリに取り込んでもらうよう依頼する\nGitLab の用語の Merge Request の方がしっくりくるかも"
   },
   {
     "objectID": "part1/lecture.html#プルリクエストのマージ",
     "href": "part1/lecture.html#プルリクエストのマージ",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "プルリクエストのマージ",
     "text": "プルリクエストのマージ\nこれは AtelierArith (講演者) の中の人がします"
   },
   {
     "objectID": "part1/lecture.html#無事マージがされたら",
     "href": "part1/lecture.html#無事マージがされたら",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "無事マージがされたら",
     "text": "無事マージがされたら\n\n各自の main ブランチを更新する\nGitHub の UI からできる\nローカルリポジトリの main ブランチを更新\n\n$ git checkout main\n$ git pull origin main"
   },
   {
     "objectID": "part1/lecture.html#おめでとうございます",
     "href": "part1/lecture.html#おめでとうございます",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "おめでとうございます",
     "text": "おめでとうございます\n\nこれでコントリビューションができました．"
   },
   {
     "objectID": "part1/lecture.html#okinawacompphysfoodurvey2024.jl",
     "href": "part1/lecture.html#okinawacompphysfoodurvey2024.jl",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "OkinawaCompPhysfoodurvey2024.jl",
     "text": "OkinawaCompPhysfoodurvey2024.jl"
   },
   {
     "objectID": "part1/lecture.html#conflict-の解消",
     "href": "part1/lecture.html#conflict-の解消",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "Conflict の解消",
     "text": "Conflict の解消\nVSCode でのdemo"
   },
   {
     "objectID": "part1/lecture.html#お疲れ様でした",
     "href": "part1/lecture.html#お疲れ様でした",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "お疲れ様でした",
     "text": "お疲れ様でした"
   },
@@ -450,161 +450,161 @@
   {
     "objectID": "part2/lecture.html#概要",
     "href": "part2/lecture.html#概要",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "概要",
     "text": "概要\n\nソフトウェア入門講義\n\n数値計算をはじめとする研究用のプログラム\nプログラムを書くための便利なツールやサービス\n\n\nお品書き\n\n前半: 使う側として使いこなす\n後半: 作る側として使いこなす\n\nプログラミング言語として Julia を中心に進める\n余裕があれば Python もやるかも"
   },
   {
     "objectID": "part2/lecture.html#受講者へのお願い",
     "href": "part2/lecture.html#受講者へのお願い",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "受講者へのお願い",
     "text": "受講者へのお願い\n\n適宜質問して\n\nディスカッションして\n\nGitHub の Issue/Discussion を利用して\nIssue 作って\n\n\n誤り・誤植があったらこっそり直して\n\nPull Request を送ってください\n\n周りに困ってる人がいたら助けてあげて\n\n参加者の専門・学年・プログラミング経験はみんな違う．\nみんなナカマ・コワクナイヨ"
   },
   {
     "objectID": "part2/lecture.html#ここでの-julia-とは",
     "href": "part2/lecture.html#ここでの-julia-とは",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "ここでの Julia とは",
     "text": "ここでの Julia とは\n\nプログラミング言語の一つ\n2012 年 Why We Created Julia に発表. 開発は 2009 年ごろから\n\nJeff Bezanson, Stefan Karpinski, Viral B. Shah, and Alan Edelman\n冒頭で In short, because we are greedy. とあるように既存のプログラミング言語の良いところを取り入れた言語\n\n高級言語の開発体験と実行速度の両立を図っている:\n\nWhy We Created Julia\n\nWe want the speed of C with the dynamism of Ruby\n(Did we mention it should be as fast as C?)"
   },
   {
     "objectID": "part2/lecture.html#julia-の良いところ",
     "href": "part2/lecture.html#julia-の良いところ",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "Julia の良いところ",
     "text": "Julia の良いところ\n\nUnicode 文字が変数として使える\n\njulia&gt; pi\nπ = 3.1415926535897...\n\njulia&gt; π # \\pi TAB\nπ = 3.1415926535897...\n他にも\njulia&gt; α, β, ..., ζ # \\alpha TAB\njulia&gt; x₁, x², xᵢ₍ⱼ₊₁₎\njulia&gt; xₘᵢₙ, xₘₐₓ, xᴺ\njulia&gt; x̂ # x\\hat TAB"
   },
   {
     "objectID": "part2/lecture.html#julia-の良いところ-1",
     "href": "part2/lecture.html#julia-の良いところ-1",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "Julia の良いところ",
     "text": "Julia の良いところ\n\nインストールが容易\n\n高速なプログラムを書くために「別のプログラミング言語を使う選択」を強制させない\n\n多重ディスパッチによる柔軟なインターフェースの提供\nPython などの他の言語との連携\n\nすでにあるものはありがたく使おう\n徐々に Pure Julia なもパッケージも増えている\n\nパッケージ開発参加への参入しやすさ\n\nコードは GitHub などのプラットフォーム上で OSS として公開されている\nGit リポジトリによるローカルレジストリ"
   },
   {
     "objectID": "part2/lecture.html#年時点での状況",
     "href": "part2/lecture.html#年時点での状況",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "2024 年時点での状況",
     "text": "2024 年時点での状況\n\n2024 年 Julia 1.10.2 が最新安定版\n1.9 系から TTFL, TTFX 問題が改善されている\n\njulia&gt; ttfl = @elapsed using Plots\njulia&gt; ttfx = @elapsed display(plot(sin))\n\n\n\nversion\nttfl\nttfx\n\n\n\n\n1.8.5\n4.087831943\n4.493850074\n\n\n1.9.4\n1.865882906\n0.586155723\n\n\n1.10.2\n1.087610856\n0.568768117"
   },
   {
     "objectID": "part2/lecture.html#計測方法",
     "href": "part2/lecture.html#計測方法",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "計測方法",
     "text": "計測方法\njulia +1.8, julia +1.9, julia +1.10 で各々対応するバージョンの Julia REPL を起動後下記を実行する:\njulia&gt; using Pkg; Pkg.activate(; temp=true); Pkg.add(name=\"Plots\", version=\"1.39.0\"); ttfl = (@elapsed using Plots); (ttfx = @elapsed display(plot(sin))); @show (ttfl, ttfx)"
   },
   {
     "objectID": "part2/lecture.html#julia-のインストール",
     "href": "part2/lecture.html#julia-のインストール",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "Julia のインストール",
     "text": "Julia のインストール\nWindows ユーザ\nwinget install julia -s msstore\nmacOS, Linux, WSL2 ユーザ\ncurl -fsSL https://install.julialang.org | sh\njulia と juliaup というコマンドが使用できる"
   },
   {
     "objectID": "part2/lecture.html#動作確認",
     "href": "part2/lecture.html#動作確認",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "動作確認",
     "text": "動作確認\nHello World を表示\n$ julia\n               _\n   _       _ _(_)_     |  Documentation: https://docs.julialang.org\n  (_)     | (_) (_)    |\n   _ _   _| |_  __ _   |  Type \"?\" for help, \"]?\" for Pkg help.\n  | | | | | | |/ _` |  |\n  | | |_| | | | (_| |  |  Version 1.10.2 (2024-03-01)\n _/ |\\__'_|_|_|\\__'_|  |  Official https://julialang.org/ release\n|__/                   |\n\njulia&gt; println(\"Hello World\")\nHello World\n\njulia&gt; println(\"Hello\"); println(\"World\")\nHello\nWorld\n\njulia&gt; print(\"Hello\"); print(\" \"); println(\"World\")\nHello World\n\njulia&gt; # println は末尾に改行を挿入する．Python の print 相当"
   },
   {
     "objectID": "part2/lecture.html#その他",
     "href": "part2/lecture.html#その他",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "その他",
     "text": "その他\n最低限の動作確認\n$ julia --version\njulia version 1.10.2\n動作環境の表示\njulia&gt; versioninfo()\nJulia Version 1.10.2\nCommit bd47eca2c8a (2024-03-01 10:14 UTC)\nBuild Info:\n  Official https://julialang.org/ release\nPlatform Info:\n  OS: macOS (x86_64-apple-darwin22.4.0)\n  CPU: 16 × Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz\n  WORD_SIZE: 64\n  LIBM: libopenlibm\n  LLVM: libLLVM-15.0.7 (ORCJIT, skylake)\nThreads: 1 default, 0 interactive, 1 GC (on 16 virtual cores)\nEnvironment:\n  JULIA_EDITOR = subl\n  JULIA_PROJECT = @.\n\njulia&gt;"
   },
   {
     "objectID": "part2/lecture.html#アップデートは定期的に",
     "href": "part2/lecture.html#アップデートは定期的に",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "アップデートは定期的に",
     "text": "アップデートは定期的に\n\n1.10 系が現時点で最新安定版. 今後 1.11 がリリースされたらバージョンを上げていきましょう\n\n$ julia\nThe latest version of Julia in the `release` channel is 1.10.2+0.x64.apple.darwin14. You currently have `1.10.1+0.x64.apple.darwin14` installed. Run:\n\n  juliaup update\n\nto install Julia 1.10.2+0.x64.apple.darwin14 and update the `release` channel to that version.\n\njuliaup update すればいい感じにセットアップしてくれる．"
   },
   {
     "objectID": "part2/lecture.html#juliaup-を使うメリット",
     "href": "part2/lecture.html#juliaup-を使うメリット",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "Juliaup を使うメリット",
     "text": "Juliaup を使うメリット\n\njuliaup update でデフォルトで使用する Julia をアップデートしてくれる\njuliaup add 1.8 && julia +1.8 で Julia 1.8 を使用できる"
   },
   {
     "objectID": "part2/lecture.html#いろんな場所で-julia-は動く",
     "href": "part2/lecture.html#いろんな場所で-julia-は動く",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "いろんな場所で Julia は動く",
     "text": "いろんな場所で Julia は動く\n\n皆さんがお持ちのマシンは Tier 1 なはず\n\n64 bit Raspberry Pi OS での Raspberry Pi 4, 5 でも動く\nLatticeQCD.jl のテストは通りました\n\n結構すごいことだと思うよ\n\n\nAmazon SageMaker Studio Lab, Vertex AI など SSH 接続や Jupyter Notebook を使えるインスタンスを提供するプラットフォーム\nGitHub Codespaces\nDocker イメージが配布されてるのでカスタマイズもできる\nJuliaHub (一番楽)"
   },
   {
     "objectID": "part2/lecture.html#juliahub",
     "href": "part2/lecture.html#juliahub",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "JuliaHub",
     "text": "JuliaHub\n\nVS Code ライクな UI で利用できる SaaS\nPluto Notebook を立ち上げることができる\n20 時間の無料枠\n会場のインターネットが不安定な場合はこっちを使ってみるといいかも\nアカウントはこちらから作れます https://juliahub.com/"
   },
   {
     "objectID": "part2/lecture.html#pluto",
     "href": "part2/lecture.html#pluto",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "Pluto",
     "text": "Pluto\njulia&gt; using Pkg; Pkg.add(\"Pluto\")\njulia&gt; using Pluto; Pluto.run()\nリアクティブなのが特徴"
   },
   {
     "objectID": "part2/lecture.html#ijulia",
     "href": "part2/lecture.html#ijulia",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "IJulia",
     "text": "IJulia\njulia&gt; using Pkg; Pkg.add(\"IJulia\")\njulia&gt; using IJulia; IJulia.installkernel(\"julia\")\nクラウド環境で↑を実行すれば Julia のカーネルがインストールされる"
   },
   {
     "objectID": "part2/lecture.html#jupytext",
     "href": "part2/lecture.html#jupytext",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "jupytext",
     "text": "jupytext\n$ pip3 install jupytext\n$ jupytext --to ipynb sample.jl # jl から ipynb を作る\n$ jupytext --to jl sample.ipynb # ipynb から jl に変換\n$ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行して ipynb を作る\n--set-kernel を使ってカーネルを指定できる"
   },
   {
     "objectID": "part2/lecture.html#jupyter-notebook-じゃだめなのか",
     "href": "part2/lecture.html#jupyter-notebook-じゃだめなのか",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "Jupyter Notebook じゃだめなのか？",
     "text": "Jupyter Notebook じゃだめなのか？"
   },
   {
     "objectID": "part2/lecture.html#微分方程式のソルバーの実装",
     "href": "part2/lecture.html#微分方程式のソルバーの実装",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "微分方程式のソルバーの実装",
     "text": "微分方程式のソルバーの実装\n多重ディスパッチ"
   },
   {
     "objectID": "part2/lecture.html#フラクタル",
     "href": "part2/lecture.html#フラクタル",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "フラクタル",
     "text": "フラクタル\n型安定 メモリアロケーション ベンチマーク"
   },
   {
     "objectID": "part2/lecture.html#アトラクタ",
     "href": "part2/lecture.html#アトラクタ",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "アトラクタ",
     "text": "アトラクタ\nお遊び"
   },
   {
     "objectID": "part2/lecture.html#弾性衝突の例",
     "href": "part2/lecture.html#弾性衝突の例",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "弾性衝突の例",
     "text": "弾性衝突の例\n余裕がある人向け"
   },
   {
     "objectID": "part2/lecture.html#まとめ",
     "href": "part2/lecture.html#まとめ",
-    "title": "Juliaを使ったソフトウェア開発入門",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "まとめ",
     "text": "まとめ"
   }
