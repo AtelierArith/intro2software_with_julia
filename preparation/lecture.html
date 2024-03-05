@@ -478,8 +478,8 @@ julia&gt;</code></pre>
 </ul></li>
 </ul>
 <div class="sourceCode" id="cb2"><pre class="sourceCode numberSource julia number-lines code-with-copy"><code class="sourceCode julia"><span id="cb2-1"><a></a><span class="im">using</span> <span class="bu">Pkg</span></span>
-<span id="cb2-2"><a></a><span class="bu">Pkg</span>.<span class="fu">add</span>([<span class="st">"Revise"</span>, <span class="st">"BenchmarkTools"</span>, <span class="st">"ReTestItems"</span>, <span class="st">"Pluto"</span>, <span class="st">"PlutoUI"</span>])</span>
-<span id="cb2-3"><a></a><span class="bu">Pkg</span>.<span class="fu">add</span>([<span class="st">"Plots"</span>, <span class="st">"ITensors"</span>, <span class="st">"Images"</span>, <span class="st">"StaticArrays"</span>, <span class="st">"DifferentialEquations"</span>, <span class="st">"LoopVectorization"</span>, <span class="st">"PythonCall"</span>, <span class="st">"PythonPlot"</span>, <span class="st">"PyCall"</span>, <span class="st">"IJulia"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-2"><a></a><span class="bu">Pkg</span>.<span class="fu">add</span>([<span class="st">"Revise"</span>, <span class="st">"BenchmarkTools"</span>, <span class="st">"ReTestItems"</span>, <span class="st">"Pluto"</span>, <span class="st">"PlutoUI"</span>, <span class="st">"LiveServer"</span>])</span>
+<span id="cb2-3"><a></a><span class="bu">Pkg</span>.<span class="fu">add</span>([<span class="st">"WordCloud"</span>, <span class="st">"Plots"</span>, <span class="st">"ITensors"</span>, <span class="st">"Images"</span>, <span class="st">"StaticArrays"</span>, <span class="st">"DifferentialEquations"</span>, <span class="st">"LoopVectorization"</span>, <span class="st">"PythonCall"</span>, <span class="st">"PythonPlot"</span>, <span class="st">"PyCall"</span>, <span class="st">"IJulia"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="git-のインストール" class="slide level2">
 <h2>Git のインストール</h2>
@@ -522,6 +522,30 @@ julia&gt;</code></pre>
 <li>GitHub と連携したくない場合は Continue with Email などその他の選択肢を選んでもOK</li>
 <li>気持ちに余裕があれば https://help.juliahub.com/juliahub/stable/tutorials/pluto_notebooks/#Pluto-Notebooks を読んで遊んでみると良い</li>
 </ol>
+</section>
+<section id="python" class="slide level2">
+<h2>Python</h2>
+<ul>
+<li>インストールさせるのが一番難しい
+<ul>
+<li>ここでは <a href="https://rye-up.com/guide/">Rye</a> + <a href="https://astral.sh/blog/uv">uv</a> + <a href="https://github.com/astral-sh/ruff">Ruff</a> を紹介</li>
+</ul></li>
+<li>インストール
+<ul>
+<li>Rye
+<ul>
+<li>https://rye-up.com/guide/installation/#installing-rye
+<ul>
+<li>Windows ユーザは <code>nokomoro3</code> 氏による <a href="https://dev.classmethod.jp/articles/get-start-rye-python/">【Pythonのパッケージ管理に悩む方へ】パッケージ管理ツールRyeを使ってみた</a> が参考になるかも</li>
+</ul></li>
+</ul></li>
+<li>uv https://github.com/astral-sh/uv を読む</li>
+<li>Ruff
+<ul>
+<li>Rye で Python を入れて <code>pip install ruff</code> とする</li>
+</ul></li>
+</ul></li>
+</ul>
 </section>
 <section id="事前に入れてほしいもの推奨" class="slide level2">
 <h2>事前に入れてほしいもの（推奨）</h2>

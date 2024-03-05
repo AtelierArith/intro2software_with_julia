@@ -39,7 +39,7 @@
     "href": "preparation/lecture.html#パッケージの導入推奨",
     "title": "Juliaを使ったソフトウェア開発入門予習資料",
     "section": "パッケージの導入（推奨）",
-    "text": "パッケージの導入（推奨）\n\n下記のコードをコピーして REPL (前のページを参照)に貼り付ける．\n\nマウスを下記のコードにフォーカスを当てると右側にクリップボード（四角い形状のアイコン)が出る.\n\n\nusing Pkg\nPkg.add([\"Revise\", \"BenchmarkTools\", \"ReTestItems\", \"Pluto\", \"PlutoUI\"])\nPkg.add([\"Plots\", \"ITensors\", \"Images\", \"StaticArrays\", \"DifferentialEquations\", \"LoopVectorization\", \"PythonCall\", \"PythonPlot\", \"PyCall\", \"IJulia\"])"
+    "text": "パッケージの導入（推奨）\n\n下記のコードをコピーして REPL (前のページを参照)に貼り付ける．\n\nマウスを下記のコードにフォーカスを当てると右側にクリップボード（四角い形状のアイコン)が出る.\n\n\nusing Pkg\nPkg.add([\"Revise\", \"BenchmarkTools\", \"ReTestItems\", \"Pluto\", \"PlutoUI\", \"LiveServer\"])\nPkg.add([\"WordCloud\", \"Plots\", \"ITensors\", \"Images\", \"StaticArrays\", \"DifferentialEquations\", \"LoopVectorization\", \"PythonCall\", \"PythonPlot\", \"PyCall\", \"IJulia\"])"
   },
   {
     "objectID": "preparation/lecture.html#git-のインストール",
@@ -61,6 +61,13 @@
     "title": "Juliaを使ったソフトウェア開発入門予習資料",
     "section": "JuliaHub のアカウント取得",
     "text": "JuliaHub のアカウント取得\n無料で１ヶ月あたり二十時間まで使えるらしい\n\nhttps://juliahub.com/ にアクセス\nStart For Free -&gt; という青色のボタンを押す\nContinue with GitHub というボタンを押してアカウント取得\nGitHub と連携したくない場合は Continue with Email などその他の選択肢を選んでもOK\n気持ちに余裕があれば https://help.juliahub.com/juliahub/stable/tutorials/pluto_notebooks/#Pluto-Notebooks を読んで遊んでみると良い"
+  },
+  {
+    "objectID": "preparation/lecture.html#python",
+    "href": "preparation/lecture.html#python",
+    "title": "Juliaを使ったソフトウェア開発入門予習資料",
+    "section": "Python",
+    "text": "Python\n\nインストールさせるのが一番難しい\n\nここでは Rye + uv + Ruff を紹介\n\nインストール\n\nRye\n\nhttps://rye-up.com/guide/installation/#installing-rye\n\nWindows ユーザは nokomoro3 氏による 【Pythonのパッケージ管理に悩む方へ】パッケージ管理ツールRyeを使ってみた が参考になるかも\n\n\nuv https://github.com/astral-sh/uv を読む\nRuff\n\nRye で Python を入れて pip install ruff とする"
   },
   {
     "objectID": "preparation/lecture.html#事前に入れてほしいもの推奨",
