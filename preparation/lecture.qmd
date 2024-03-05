@@ -82,8 +82,8 @@ julia>
 
 ```julia
 using Pkg
-Pkg.add(["Revise", "BenchmarkTools", "ReTestItems", "Pluto", "PlutoUI"])
-Pkg.add(["Plots", "ITensors", "Images", "StaticArrays", "DifferentialEquations", "LoopVectorization", "PythonCall", "PythonPlot", "PyCall", "IJulia"])
+Pkg.add(["Revise", "BenchmarkTools", "ReTestItems", "Pluto", "PlutoUI", "LiveServer"])
+Pkg.add(["WordCloud", "Plots", "ITensors", "Images", "StaticArrays", "DifferentialEquations", "LoopVectorization", "PythonCall", "PythonPlot", "PyCall", "IJulia"])
 ```
 
 ---
@@ -119,6 +119,22 @@ Pkg.add(["Plots", "ITensors", "Images", "StaticArrays", "DifferentialEquations",
 1. Continue with GitHub というボタンを押してアカウント取得
 1. GitHub と連携したくない場合は Continue with Email などその他の選択肢を選んでもOK
 1. 気持ちに余裕があれば https://help.juliahub.com/juliahub/stable/tutorials/pluto_notebooks/#Pluto-Notebooks を読んで遊んでみると良い
+
+---
+
+## Python
+
+- インストールさせるのが一番難しい
+  - ここでは [Rye](https://rye-up.com/guide/) + [uv](https://astral.sh/blog/uv) + [Ruff](https://github.com/astral-sh/ruff) を紹介
+
+- インストール
+  - Rye
+    - https://rye-up.com/guide/installation/#installing-rye
+      - Windows ユーザは `nokomoro3` 氏による [【Pythonのパッケージ管理に悩む方へ】パッケージ管理ツールRyeを使ってみた](https://dev.classmethod.jp/articles/get-start-rye-python/) が参考になるかも
+  - uv
+    https://github.com/astral-sh/uv を読む
+  - Ruff
+    - Rye で Python を入れて `pip install ruff` とする
 
 ---
 
