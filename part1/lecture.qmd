@@ -1,5 +1,5 @@
 ---
-title: Juliaを使ったソフトウェア開発入門
+title: Juliaを使ったソフトウェア開発入門<br>Part1
 author: SatoshiTerasaki@AtelierArith
 format:
   revealjs:
