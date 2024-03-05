@@ -167,8 +167,8 @@ $ docker pull ubuntu
 
 ## その他
 
-https://quarto.org/docs/get-started/
-https://github.com/typst/typst
+- https://quarto.org/docs/get-started/
+- https://github.com/typst/typst
 
 ---
 
