@@ -444,9 +444,15 @@ TODO: Mermaid 記法で説明をする
 
 ## ハンズオン
 
+[ここの手順書を参考にします](https://github.com/AtelierArith/OkinawaCompPhysFoodSurvey2024.jl/issues/6)
+
 ---
 
 ## WordCloud.jl
+
+![wordcloud](https://atelierarith.github.io/OkinawaCompPhysFoodSurvey2024.jl/dev/wc_favorite_food.svg)
+
+[OkinawaCompPhysFoodSurvey2024.jl](https://atelierarith.github.io/OkinawaCompPhysFoodSurvey2024.jl/dev/#OkinawaCompPhysFoodSurvey2024) をみんなで育てよう
 
 ---
 
@@ -576,8 +582,6 @@ $ git pull origin main
 - これでコントリビューションができました．
 
 ---
-
-## OkinawaCompPhysfoodurvey2024.jl
 
 # Appendix
 
