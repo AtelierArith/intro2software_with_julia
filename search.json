@@ -312,14 +312,14 @@
     "href": "part1/lecture.html#履歴コミットブランチ",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "履歴・コミット・ブランチ",
-    "text": "履歴・コミット・ブランチ\n\n変更はコミットという単位でおこなわれる\n\n朝起きる\n歯を磨いて\n着替えて\n荷物を持って\nホテルにPCを忘れたので回収\n春の学校出席\n\n変更の系列をブランチと呼んでいる"
+    "text": "履歴・コミット・ブランチ\n\n変更はコミットという単位でおこなわれる\n\n朝起きる\n歯を磨いて\n着替えて\n荷物を持って\nホテルにPCを忘れたので回収\n朝ごはんを食べる\n春の学校出席\n\n変更の系列をブランチと呼んでいる"
   },
   {
     "objectID": "part1/lecture.html#履歴コミットブランチ-1",
     "href": "part1/lecture.html#履歴コミットブランチ-1",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "履歴・コミット・ブランチ",
-    "text": "履歴・コミット・ブランチ\nTODO: Mermaid 記法で説明をする\n\n変更はコミットという単位でおこなわれる\n\n朝起きる\n歯を磨いて\n着替えて\n荷物を持って\nホテルにPCを忘れたので回収\n春の学校出席\n\n変更の系列をブランチと呼んでいる"
+    "text": "履歴・コミット・ブランチ\nTODO: Mermaid 記法で説明をする\n\n変更はコミットという単位でおこなわれる\n\n朝起きる\n歯を磨いて\n着替えて\n荷物を持って\nホテルにPCを忘れたので回収\n朝ごはんを食べる\n春の学校出席\n\n変更の系列をブランチと呼んでいる"
   },
   {
     "objectID": "part1/lecture.html#ハンズオン",
@@ -333,7 +333,7 @@
     "href": "part1/lecture.html#wordcloud.jl",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "WordCloud.jl",
-    "text": "WordCloud.jl\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwordcloudOkinawaCompPhysFoodSurvey2024.jl をみんなで育てよう"
+    "text": "WordCloud.jl\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwordcloudOkinawaCompPhysFoodSurvey2024.jl をみんなで育てよう"
   },
   {
     "objectID": "part1/lecture.html#fork",
