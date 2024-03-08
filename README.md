@@ -12,4 +12,4 @@ $ cd intro2software_with_julia
 $ quarto preview
 ```
 
-Your contribution is 
+Your contribution is welcome
