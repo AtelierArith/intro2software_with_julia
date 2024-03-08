@@ -137,7 +137,7 @@
     "href": "part1/lecture.html#受講者へのお願い",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "受講者へのお願い",
-    "text": "受講者へのお願い\n\n適宜質問して\n\nディスカッションして\n\nGitHub の Issue/Discussion を利用して\nIssue 作って\n\n\n誤り・誤植があったらこっそり直して\n\nPull Request を送ってください\n\n周りに困ってる人がいたら助けてあげて\n\n参加者の専門・学年・プログラミング経験はみんな違う．\nみんなナカマ・コワクナイヨ"
+    "text": "受講者へのお願い\n\n適宜質問して\n\nディスカッションして\n\nGitHub の Issue/Discussion を利用して\n\n\n誤り・誤植があったらこっそり直して\n\nPull Request を送ってください\n\n周りに困ってる人がいたら助けてあげて\n\n参加者の専門・学年・プログラミング経験はみんな違う．\nみんなナカマ・コワクナイヨ"
   },
   {
     "objectID": "part1/lecture.html#皆さんを取りまく環境",
@@ -242,7 +242,7 @@
     "href": "part1/lecture.html#ということでやってみよう",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "ということでやってみよう",
-    "text": "ということでやってみよう\n\nみんなで作るご飯データベース\nGitHub で公開されているリポジトリに対してプルリクエストを送る\n\nお題\n\nWordCloud でお勧めのご飯をサジェストする\nせっかくなので沖縄関連のものがいいなぁ\n\nOkinawaCompPhysfoodurvey2024.jl\n\n物理とは程遠いけれど多くの概念を習得できるはず．"
+    "text": "ということでやってみよう\n\nみんなで作るご飯データベース\nGitHub で公開されているリポジトリに対してプルリクエストを送る\n\nお題\n\nWordCloud でお勧めのご飯を集約する\nせっかくなので沖縄関連のものがいいなぁ\n\nOkinawaCompPhysfoodurvey2024.jl\n\n物理とは程遠いけれど多くの概念を習得できるはず．"
   },
   {
     "objectID": "part1/lecture.html#何をすればいいのか",
@@ -320,6 +320,20 @@
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "履歴・コミット・ブランチ",
     "text": "履歴・コミット・ブランチ\nTODO: Mermaid 記法で説明をする\n\n変更はコミットという単位でおこなわれる\n\n朝起きる\n歯を磨いて\n着替えて\n荷物を持って\nホテルにPCを忘れたので回収\n朝ごはんを食べる\n春の学校出席\n\n変更の系列をブランチと呼んでいる"
+  },
+  {
+    "objectID": "part1/lecture.html#研究室の整備に例えると",
+    "href": "part1/lecture.html#研究室の整備に例えると",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
+    "section": "研究室の整備に例えると",
+    "text": "研究室の整備に例えると\nソフトウェア開発は研究室の整備に似てるかも\n\nmain ブランチは研究室本体\n各ブランチは各々のやりたいことを進める\n\n部屋がある\nA さんは机とコーヒマシンを配置する\nB さんは本棚を整理する\nC さんはリラックスするためのソファーをこっそり持ってきた"
+  },
+  {
+    "objectID": "part1/lecture.html#ブランチの利用法",
+    "href": "part1/lecture.html#ブランチの利用法",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
+    "section": "ブランチの利用法",
+    "text": "ブランチの利用法\n\n数値計算をしたい．アイデアがある．\n\nアイデア１を試す作業ブランチを作る\nアイデア２を試す作業ブランチを作る\nアイデア１が失敗ならブランチを破棄\nアイデア２が上手くいった\n\nmain にマージ\n\n\nリモートリポジトリにプッシュすれば各々の進捗状況を共有できる"
   },
   {
     "objectID": "part1/lecture.html#ハンズオン",
