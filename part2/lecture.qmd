@@ -309,6 +309,7 @@ $ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行
 
 - [サンプルコードはこちら](https://github.com/AtelierArith/intro2software_with_julia_pluto_materials)
 - [実行されたものはこちら](https://atelierarith.github.io/intro2software_with_julia_pluto_materials/)
+- [Pluto Notebook を JuliaHub で動かす方法](https://github.com/AtelierArith/intro2software_with_julia/issues/5)
 
 ---
 
@@ -342,7 +343,7 @@ $ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行
 
 ## アトラクタ
 
-お遊び
+DifferentialEquations.jl の例
 
 ---
 
