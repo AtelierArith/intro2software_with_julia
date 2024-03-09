@@ -242,7 +242,7 @@ to install Julia 1.10.2+0.x64.apple.darwin14 and update the `release` channel to
 
 ### 要するに
 
-好きな環境で遊びな！
+- オンライン，オフライン好きな環境で遊びな！
 
 ---
 
@@ -278,6 +278,17 @@ julia> using IJulia; IJulia.installkernel("julia")
 
 ---
 
+## Jupyter Notebook じゃだめなのか？
+
+- 別に構わない
+  - 好みが分かれる
+- Jupyter は任意のタイミングで任意のセルを任意の順序で実行することができてしまう
+  - 意図しない結果を出してそれにより意思決定をしてしまう可能性がある
+  - 他の人が試したときに再現しないような成果ができてしまう可能性がある
+  - あなたの研究の有用性を裏付ける根拠がそのメチャクチャなノートブックに依るものであるならばそれは恐ろしい未来が待っている
+
+---
+
 ## jupytext
 
 ```console
@@ -294,11 +305,10 @@ $ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行
 
 ---
 
-## Jupyter Notebook じゃだめなのか？
-
----
-
 # 色々遊んでみよう
+
+- [サンプルコードはこちら](https://github.com/AtelierArith/intro2software_with_julia_pluto_materials)
+- [実行されたものはこちら](https://atelierarith.github.io/intro2software_with_julia_pluto_materials/)
 
 ---
 
@@ -308,17 +318,17 @@ $ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行
 
 ---
 
-## 微分方程式のソルバーの実装
-
-多重ディスパッチ
-
----
-
-## フラクタル
+## 反復関数系
 
 型安定
 メモリアロケーション
 ベンチマーク
+
+---
+
+## 微分方程式のソルバーの実装
+
+多重ディスパッチ
 
 ---
 
@@ -328,21 +338,32 @@ $ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行
 
 ---
 
-## 弾性衝突の例
+## [AtelierArith/GeometryObjects.jl](https://github.com/AtelierArith/GeometryObjects.jl)
 
-余裕がある人向け
-
----
-
-## 余力がある人
-
-- 各自の慣れている言語で比較してみると良いかも
-- フラクタルの例はスピードだといい勝負しているはず
+- 余裕がある人向け
+- ほどほどの規模のパッケージ
+- 最近メンテナンスしてないので不具合があればプルリクエストお待ちしております
 
 ---
 
-パッケージの導入
-ローカルレジストリ
+## [AtelierArith/RandomLogos.jl](https://github.com/AtelierArith/RandomLogos.jl)
+
+- Connor Anderson と Ryan Farrell による[Improving Fractal Pre-training](https://catalys1.github.io/fractal-pretraining/) の Julia 実装
+- 余裕がある人向け
+- それなりの規模のパッケージ
+- 各自の慣れている言語で実装してみるといいかも．
+
+---
+
+## パッケージ開発
+
+- [Julia の REPL で時計を表示/そして公式パッケージに登録まで](https://zenn.dev/terasakisatoshi/articles/4416c268ed966c)
+- [LocalRegistry.jl: 公式パッケージにするのが億劫な JuliaLang developer への処方箋](https://zenn.dev/terasakisatoshi/articles/73d23fd9cf4851)
+- 未出版・研究段階中のパッケージを管理したい
+  - PkgTemplates.jl で雛形を作成しそこに機能を追加していく
+  - LocalRegistry.jl を使ってレジストリを作成
+  - そのレジストリに登録
+- これだけで丸一日かかりそうなので知りたい方は個別に相談しましょう
 
 ---
 
