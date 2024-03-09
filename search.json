@@ -21,6 +21,13 @@
     "text": "講義資料のリンク\n\nPart1\n\nOkinawaCompPhysFoodSurvey2024.jl\n\nPart2\n\nintro2software_with_julia_pluto_materials\n\nPreparation"
   },
   {
+    "objectID": "index.html#その他",
+    "href": "index.html#その他",
+    "title": "AtelierArith の 計算物理春の学校 2024 講義ノート",
+    "section": "その他",
+    "text": "その他\n\nこのページは Quarto を使って構築されている．qmd ファイルは こちら で管理されている．読者は教育・研究目的であれば自由に使用ができる．"
+  },
+  {
     "objectID": "preparation/lecture.html#忙しい",
     "href": "preparation/lecture.html#忙しい",
     "title": "Juliaを使ったソフトウェア開発入門予習資料",
@@ -361,7 +368,7 @@
     "href": "part1/lecture.html#wordcloud.jl",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "WordCloud.jl",
-    "text": "WordCloud.jl\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwordcloudOkinawaCompPhysFoodSurvey2024.jl をみんなで育てよう"
+    "text": "WordCloud.jl\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwordcloudOkinawaCompPhysFoodSurvey2024.jl をみんなで育てよう"
   },
   {
     "objectID": "part1/lecture.html#fork",
@@ -627,7 +634,14 @@
     "href": "part2/lecture.html#多重ディスパッチ",
     "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "多重ディスパッチ",
-    "text": "多重ディスパッチ\n\n微分方程式のソルバーの実装"
+    "text": "多重ディスパッチ\n\n微分方程式のソルバーの実装\n\n大槻純也, Pythonによる計算物理, 森北出版 の第2章を題材にしています．"
+  },
+  {
+    "objectID": "part2/lecture.html#lu-分解qr-分解",
+    "href": "part2/lecture.html#lu-分解qr-分解",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "LU 分解，QR 分解",
+    "text": "LU 分解，QR 分解\n\nUnicode 文字をふんだんに使ってかけますよを説明するためのもの\n金田 行雄 監修・ 笹井 理生 監修・ 張 紹良 編，計算科学のための基本数理アルゴリズム， 共立出版 の 第 2 章 線形方程式の数値アルゴリズム に出てくるグラム–シュミットの直交化法と LU 分解のアルゴリズムを Julia に移植している．"
   },
   {
     "objectID": "part2/lecture.html#アトラクタ",
@@ -649,6 +663,13 @@
     "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "AtelierArith/RandomLogos.jl",
     "text": "AtelierArith/RandomLogos.jl\n\nConnor Anderson と Ryan Farrell によるImproving Fractal Pre-training の Julia 実装\n余裕がある人向け\nそれなりの規模のパッケージ\n各自の慣れている言語で実装してみるといいかも．"
+  },
+  {
+    "objectID": "part2/lecture.html#jldev_rye",
+    "href": "part2/lecture.html#jldev_rye",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "jldev_rye",
+    "text": "jldev_rye\n\n余裕がある人向け\nJulia と Python の相互連携ができることを説明するためのリポジトリ\n\njldev_rye"
   },
   {
     "objectID": "part2/lecture.html#パッケージ開発",
