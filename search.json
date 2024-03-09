@@ -494,7 +494,7 @@
     "href": "part2/lecture.html#受講者へのお願い",
     "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "受講者へのお願い",
-    "text": "受講者へのお願い\n\n適宜質問して\n\nディスカッションして\n\nGitHub の Issue/Discussion を利用して\nIssue 作って\n\n\n誤り・誤植があったらこっそり直して\n\nPull Request を送ってください\n\n周りに困ってる人がいたら助けてあげて\n\n参加者の専門・学年・プログラミング経験はみんな違う．\nみんなナカマ・コワクナイヨ"
+    "text": "受講者へのお願い\n\n適宜質問して\n\nディスカッションして\n\nGitHub の Issue/Discussion を利用して\nIssue 作って\n\n\n誤り・誤植があったら\n\nPull Request を送ってください\n\n周りに困ってる人がいたら助けてあげて\n\n参加者の専門・学年・プログラミング経験はみんな違う．\nみんなナカマ・コワクナイヨ"
   },
   {
     "objectID": "part2/lecture.html#ここでの-julia-とは",
@@ -623,11 +623,11 @@
     "text": "反復関数系\n型安定 メモリアロケーション ベンチマーク"
   },
   {
-    "objectID": "part2/lecture.html#微分方程式のソルバーの実装",
-    "href": "part2/lecture.html#微分方程式のソルバーの実装",
+    "objectID": "part2/lecture.html#多重ディスパッチ",
+    "href": "part2/lecture.html#多重ディスパッチ",
     "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "微分方程式のソルバーの実装",
-    "text": "微分方程式のソルバーの実装\n多重ディスパッチ"
+    "section": "多重ディスパッチ",
+    "text": "多重ディスパッチ\n\n微分方程式のソルバーの実装"
   },
   {
     "objectID": "part2/lecture.html#アトラクタ",
