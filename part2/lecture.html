@@ -1467,7 +1467,9 @@ julia&gt;</code></pre>
 <section class="slide level2">
 
 <h3 id="要するに">要するに</h3>
-<p>好きな環境で遊びな！</p>
+<ul>
+<li>オンライン，オフライン好きな環境で遊びな！</li>
+</ul>
 </section>
 <section id="juliahub" class="slide level2">
 <h2>JuliaHub</h2>
@@ -1491,6 +1493,21 @@ julia&gt;</code></pre>
 <span id="cb12-2"><a></a>julia<span class="op">&gt;</span> <span class="im">using</span> <span class="bu">IJulia;</span> IJulia.installkernel(&quot;julia&quot;)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>クラウド環境で↑を実行すれば Julia のカーネルがインストールされる</p>
 </section>
+<section id="jupyter-notebook-じゃだめなのか" class="slide level2">
+<h2>Jupyter Notebook じゃだめなのか？</h2>
+<ul>
+<li>別に構わない
+<ul>
+<li>好みが分かれる</li>
+</ul></li>
+<li>Jupyter は任意のタイミングで任意のセルを任意の順序で実行することができてしまう
+<ul>
+<li>意図しない結果を出してそれにより意思決定をしてしまう可能性がある</li>
+<li>他の人が試したときに再現しないような成果ができてしまう可能性がある</li>
+<li>あなたの研究の有用性を裏付ける根拠がそのメチャクチャなノートブックに依るものであるならばそれは恐ろしい未来が待っている</li>
+</ul></li>
+</ul>
+</section>
 <section id="jupytext" class="slide level2">
 <h2>jupytext</h2>
 <div class="sourceCode" id="cb13"><pre class="sourceCode numberSource console number-lines code-with-copy"><code class="sourceCode"><span id="cb13-1"><a></a>$ pip3 install jupytext</span>
@@ -1499,34 +1516,80 @@ julia&gt;</code></pre>
 <div class="sourceCode" id="cb14"><pre class="sourceCode numberSource console number-lines code-with-copy"><code class="sourceCode"><span id="cb14-1"><a></a>$ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行して ipynb を作る</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><code>--set-kernel</code> を使ってカーネルを指定できる</p>
 </section>
-<section id="jupyter-notebook-じゃだめなのか" class="slide level2">
-<h2>Jupyter Notebook じゃだめなのか？</h2>
+<section class="slide level2">
+
+</section>
+<section>
+<section id="色々遊んでみよう" class="title-slide slide level1 center">
+<h1>色々遊んでみよう</h1>
+<ul>
+<li><a href="https://github.com/AtelierArith/intro2software_with_julia_pluto_materials">サンプルコードはこちら</a></li>
+<li><a href="https://atelierarith.github.io/intro2software_with_julia_pluto_materials/">実行されたものはこちら</a></li>
+</ul>
+</section>
+<section id="hello-world" class="slide level2">
+<h2>Hello world</h2>
+<p>簡単なコードを動かしてみる</p>
+</section>
+<section id="反復関数系" class="slide level2">
+<h2>反復関数系</h2>
+<p>型安定 メモリアロケーション ベンチマーク</p>
 </section>
 <section id="微分方程式のソルバーの実装" class="slide level2">
 <h2>微分方程式のソルバーの実装</h2>
 <p>多重ディスパッチ</p>
 </section>
-<section id="フラクタル" class="slide level2">
-<h2>フラクタル</h2>
-<p>型安定 メモリアロケーション ベンチマーク</p>
-</section>
 <section id="アトラクタ" class="slide level2">
 <h2>アトラクタ</h2>
 <p>お遊び</p>
 </section>
-<section id="弾性衝突の例" class="slide level2">
-<h2>弾性衝突の例</h2>
-<p>余裕がある人向け</p>
+<section id="atelierarithgeometryobjects.jl" class="slide level2">
+<h2><a href="https://github.com/AtelierArith/GeometryObjects.jl">AtelierArith/GeometryObjects.jl</a></h2>
+<ul>
+<li>余裕がある人向け</li>
+<li>ほどほどの規模のパッケージ</li>
+<li>最近メンテナンスしてないので不具合があればプルリクエストお待ちしております</li>
+</ul>
+</section>
+<section id="atelierarithrandomlogos.jl" class="slide level2">
+<h2><a href="https://github.com/AtelierArith/RandomLogos.jl">AtelierArith/RandomLogos.jl</a></h2>
+<ul>
+<li>Connor Anderson と Ryan Farrell による<a href="https://catalys1.github.io/fractal-pretraining/">Improving Fractal Pre-training</a> の Julia 実装</li>
+<li>余裕がある人向け</li>
+<li>それなりの規模のパッケージ</li>
+<li>各自の慣れている言語で実装してみるといいかも．</li>
+</ul>
+</section>
+<section id="パッケージ開発" class="slide level2">
+<h2>パッケージ開発</h2>
+<ul>
+<li><a href="https://zenn.dev/terasakisatoshi/articles/4416c268ed966c">Julia の REPL で時計を表示/そして公式パッケージに登録まで</a></li>
+<li><a href="https://zenn.dev/terasakisatoshi/articles/73d23fd9cf4851">LocalRegistry.jl: 公式パッケージにするのが億劫な JuliaLang developer への処方箋</a></li>
+<li>未出版・研究段階中のパッケージを管理したい
+<ul>
+<li>PkgTemplates.jl で雛形を作成しそこに機能を追加していく</li>
+<li>LocalRegistry.jl を使ってレジストリを作成</li>
+<li>そのレジストリに登録</li>
+</ul></li>
+<li>これだけで丸一日かかりそうなので知りたい方は個別に相談しましょう</li>
+</ul>
 </section>
 <section id="まとめ" class="slide level2">
 <h2>まとめ</h2>
+<ul>
+<li>いろんな道具を紹介した</li>
+<li>手を動かす方法を紹介した</li>
+<li>単に使うだけではなく能力を発揮できる機会を与えられている</li>
+<li>Julia を導入しました</li>
+<li>今後の研究に役に立てていただければ幸いです</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 

@@ -595,6 +595,13 @@
     "text": "IJulia\njulia&gt; using Pkg; Pkg.add(\"IJulia\")\njulia&gt; using IJulia; IJulia.installkernel(\"julia\")\nクラウド環境で↑を実行すれば Julia のカーネルがインストールされる"
   },
   {
+    "objectID": "part2/lecture.html#jupyter-notebook-じゃだめなのか",
+    "href": "part2/lecture.html#jupyter-notebook-じゃだめなのか",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "Jupyter Notebook じゃだめなのか？",
+    "text": "Jupyter Notebook じゃだめなのか？\n\n別に構わない\n\n好みが分かれる\n\nJupyter は任意のタイミングで任意のセルを任意の順序で実行することができてしまう\n\n意図しない結果を出してそれにより意思決定をしてしまう可能性がある\n他の人が試したときに再現しないような成果ができてしまう可能性がある\nあなたの研究の有用性を裏付ける根拠がそのメチャクチャなノートブックに依るものであるならばそれは恐ろしい未来が待っている"
+  },
+  {
     "objectID": "part2/lecture.html#jupytext",
     "href": "part2/lecture.html#jupytext",
     "title": "Juliaを使ったソフトウェア開発入門Part2",
@@ -602,11 +609,18 @@
     "text": "jupytext\n$ pip3 install jupytext\n$ jupytext --to ipynb sample.jl # jl から ipynb を作る\n$ jupytext --to jl sample.ipynb # ipynb から jl に変換\n$ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行して ipynb を作る\n--set-kernel を使ってカーネルを指定できる"
   },
   {
-    "objectID": "part2/lecture.html#jupyter-notebook-じゃだめなのか",
-    "href": "part2/lecture.html#jupyter-notebook-じゃだめなのか",
+    "objectID": "part2/lecture.html#hello-world",
+    "href": "part2/lecture.html#hello-world",
     "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "Jupyter Notebook じゃだめなのか？",
-    "text": "Jupyter Notebook じゃだめなのか？"
+    "section": "Hello world",
+    "text": "Hello world\n簡単なコードを動かしてみる"
+  },
+  {
+    "objectID": "part2/lecture.html#反復関数系",
+    "href": "part2/lecture.html#反復関数系",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "反復関数系",
+    "text": "反復関数系\n型安定 メモリアロケーション ベンチマーク"
   },
   {
     "objectID": "part2/lecture.html#微分方程式のソルバーの実装",
@@ -616,13 +630,6 @@
     "text": "微分方程式のソルバーの実装\n多重ディスパッチ"
   },
   {
-    "objectID": "part2/lecture.html#フラクタル",
-    "href": "part2/lecture.html#フラクタル",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "フラクタル",
-    "text": "フラクタル\n型安定 メモリアロケーション ベンチマーク"
-  },
-  {
     "objectID": "part2/lecture.html#アトラクタ",
     "href": "part2/lecture.html#アトラクタ",
     "title": "Juliaを使ったソフトウェア開発入門Part2",
@@ -630,17 +637,31 @@
     "text": "アトラクタ\nお遊び"
   },
   {
-    "objectID": "part2/lecture.html#弾性衝突の例",
-    "href": "part2/lecture.html#弾性衝突の例",
+    "objectID": "part2/lecture.html#atelierarithgeometryobjects.jl",
+    "href": "part2/lecture.html#atelierarithgeometryobjects.jl",
     "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "弾性衝突の例",
-    "text": "弾性衝突の例\n余裕がある人向け"
+    "section": "AtelierArith/GeometryObjects.jl",
+    "text": "AtelierArith/GeometryObjects.jl\n\n余裕がある人向け\nほどほどの規模のパッケージ\n最近メンテナンスしてないので不具合があればプルリクエストお待ちしております"
+  },
+  {
+    "objectID": "part2/lecture.html#atelierarithrandomlogos.jl",
+    "href": "part2/lecture.html#atelierarithrandomlogos.jl",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "AtelierArith/RandomLogos.jl",
+    "text": "AtelierArith/RandomLogos.jl\n\nConnor Anderson と Ryan Farrell によるImproving Fractal Pre-training の Julia 実装\n余裕がある人向け\nそれなりの規模のパッケージ\n各自の慣れている言語で実装してみるといいかも．"
+  },
+  {
+    "objectID": "part2/lecture.html#パッケージ開発",
+    "href": "part2/lecture.html#パッケージ開発",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "パッケージ開発",
+    "text": "パッケージ開発\n\nJulia の REPL で時計を表示/そして公式パッケージに登録まで\nLocalRegistry.jl: 公式パッケージにするのが億劫な JuliaLang developer への処方箋\n未出版・研究段階中のパッケージを管理したい\n\nPkgTemplates.jl で雛形を作成しそこに機能を追加していく\nLocalRegistry.jl を使ってレジストリを作成\nそのレジストリに登録\n\nこれだけで丸一日かかりそうなので知りたい方は個別に相談しましょう"
   },
   {
     "objectID": "part2/lecture.html#まとめ",
     "href": "part2/lecture.html#まとめ",
     "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "まとめ",
-    "text": "まとめ"
+    "text": "まとめ\n\nいろんな道具を紹介した\n手を動かす方法を紹介した\n単に使うだけではなく能力を発揮できる機会を与えられている\nJulia を導入しました\n今後の研究に役に立てていただければ幸いです"
   }
 ]
