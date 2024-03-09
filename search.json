@@ -648,7 +648,7 @@
     "href": "part2/lecture.html#アトラクタ",
     "title": "Juliaを使ったソフトウェア開発入門Part2",
     "section": "アトラクタ",
-    "text": "アトラクタ\nお遊び"
+    "text": "アトラクタ\nDifferentialEquations.jl の例"
   },
   {
     "objectID": "part2/lecture.html#atelierarithgeometryobjects.jl",
