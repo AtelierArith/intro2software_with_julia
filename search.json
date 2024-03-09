@@ -294,11 +294,11 @@
     "text": "GitHub のサービス\n\nIssue\n\n開発の TODO を管理\nバグレポート\n\nPull Request\n\n変更を取り込む際に使う\n\nGitHub Actions\n\n自動テストをはじめとする様々な作業を自動化してくれる\n\nその他 Discussion, Wiki, Project などがある"
   },
   {
-    "objectID": "part1/lecture.html#例",
-    "href": "part1/lecture.html#例",
+    "objectID": "part1/lecture.html#github-actions-の例",
+    "href": "part1/lecture.html#github-actions-の例",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
-    "section": "例",
-    "text": "例\n\nこのスライドは lecture.qmd というテキストファイルから生成されています\nlecture.qmd をソースコードとして管理\ngit commit で変更を記録\ngit push で GitHub で管理しているリポジトリを更新\ngit push によるトリガーからスライド生成をするコマンドを実行\n皆さんは特定の URL から入手\nQuarto 便利ですねぇ（独り言）"
+    "section": "GitHub Actions の例",
+    "text": "GitHub Actions の例\n\nこのスライドは lecture.qmd というテキストファイルから生成されています\nlecture.qmd をソースコードとして管理\ngit commit で変更を記録\ngit push で GitHub で管理しているリポジトリを更新\ngit push によるトリガーからスライド生成をするコマンドを実行\n皆さんは特定の URL から入手\nQuarto 便利ですねぇ（独り言）"
   },
   {
     "objectID": "part1/lecture.html#履歴コミットブランチ",
@@ -312,28 +312,42 @@
     "href": "part1/lecture.html#履歴コミットブランチ-1",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "履歴・コミット・ブランチ",
-    "text": "履歴・コミット・ブランチ\nTODO: Mermaid 記法で説明をする\n\n変更はコミットという単位でおこなわれる\n\n朝起きる\n歯を磨いて\n着替えて\n荷物を持って\nホテルにPCを忘れたので回収\n朝ごはんを食べる\n春の学校出席\n\n変更の系列をブランチと呼んでいる"
+    "text": "履歴・コミット・ブランチ\n\n\n\n\n\n\n\n\n\n\n\n\n変更はコミットという単位でおこなわれる\n変更の系列をブランチと呼んでいる"
   },
   {
     "objectID": "part1/lecture.html#研究室の整備に例えると",
     "href": "part1/lecture.html#研究室の整備に例えると",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "研究室の整備に例えると",
-    "text": "研究室の整備に例えると\nソフトウェア開発は研究室の整備に似てるかも\n\nmain ブランチは研究室本体\n各ブランチは各々のやりたいことを進める\n\n部屋がある\nA さんは机とコーヒマシンを配置する\nB さんは本棚を整理する\nC さんはリラックスするためのソファーをこっそり持ってきた"
+    "text": "研究室の整備に例えると\nソフトウェア開発は研究室の整備に似てるかも\n\nmain ブランチは研究室本体\n各ブランチは各々のやりたいことを進める\n\n部屋がある\nA さんは支給済みの机の上にコーヒマシンを配置する\nB さんは本棚を整理する\nC さんはリラックスするためのソファーをこっそり持ってきた\n\nmain にマージは実際に行動にうつすことに対応"
   },
   {
     "objectID": "part1/lecture.html#main-には直接コミットをしない",
     "href": "part1/lecture.html#main-には直接コミットをしない",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "main には直接コミットをしない",
-    "text": "main には直接コミットをしない\n\nmain ブランチに直接コミットするとどうなるか\n\nトラブルの元\nA さんは机とコーヒマシンを配置するはずの場所に\nC さんはリラックスするためのソファーを配置\nソファーを配置した近くに本棚があって B さんが作業できない\n\n困る\n交通整理が必要\n\nブランチというパラレルワールドを作って各々が作業をする\nmain にマージして研究室を整える"
+    "text": "main には直接コミットをしない\n\nmain ブランチに直接コミットするとトラブルの元\n\nA さんは机とコーヒマシンを配置するはずの場所に\nC さんは机を捨ててリラックスするためのソファーを配置\nソファーを配置した近くに本棚があって B さんが作業できない\n\n困る\n交通整理が必要\n\nブランチというパラレルワールドを作って各々が作業をする\nmain にマージして研究室を整える"
   },
   {
-    "objectID": "part1/lecture.html#ブランチの利用法",
-    "href": "part1/lecture.html#ブランチの利用法",
+    "objectID": "part1/lecture.html#ブランチによる交通整理",
+    "href": "part1/lecture.html#ブランチによる交通整理",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
-    "section": "ブランチの利用法",
-    "text": "ブランチの利用法\n\n数値計算をしたい．アイデアがある．\n\nアイデア１を試す作業ブランチを作る\nアイデア２を試す作業ブランチを作る\nアイデア１が失敗ならブランチを破棄\nアイデア２が上手くいった\n\nmain にマージ\n\n\nリモートリポジトリにプッシュすれば各々の進捗状況を共有できる"
+    "section": "ブランチによる交通整理",
+    "text": "ブランチによる交通整理"
+  },
+  {
+    "objectID": "part1/lecture.html#研究室のバージョン管理の効果",
+    "href": "part1/lecture.html#研究室のバージョン管理の効果",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
+    "section": "研究室のバージョン管理の効果",
+    "text": "研究室のバージョン管理の効果\n\n誰がいつ何をどのような理由で研究室を整えたかがわかる\n\nA: なんかすごい立派なソファーがあるんだけれど？\nB: え？ C さんがやったの？\n\nそしてものすごい勢いで人が入ってくる"
+  },
+  {
+    "objectID": "part1/lecture.html#実践的なブランチの利用法",
+    "href": "part1/lecture.html#実践的なブランチの利用法",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
+    "section": "実践的なブランチの利用法",
+    "text": "実践的なブランチの利用法\n新しいアイデアを試すための試し書き"
   },
   {
     "objectID": "part1/lecture.html#ハンズオン",
