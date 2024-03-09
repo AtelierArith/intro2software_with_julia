@@ -322,6 +322,13 @@
     "text": "研究室の整備に例えると\nソフトウェア開発は研究室の整備に似てるかも\n\nmain ブランチは研究室本体\n各ブランチは各々のやりたいことを進める\n\n部屋がある\nA さんは机とコーヒマシンを配置する\nB さんは本棚を整理する\nC さんはリラックスするためのソファーをこっそり持ってきた"
   },
   {
+    "objectID": "part1/lecture.html#main-には直接コミットをしない",
+    "href": "part1/lecture.html#main-には直接コミットをしない",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
+    "section": "main には直接コミットをしない",
+    "text": "main には直接コミットをしない\n\nmain ブランチに直接コミットするとどうなるか\n\nトラブルの元\nA さんは机とコーヒマシンを配置するはずの場所に\nC さんはリラックスするためのソファーを配置\nソファーを配置した近くに本棚があって B さんが作業できない\n\n困る\n交通整理が必要\n\nブランチというパラレルワールドを作って各々が作業をする\nmain にマージして研究室を整える"
+  },
+  {
     "objectID": "part1/lecture.html#ブランチの利用法",
     "href": "part1/lecture.html#ブランチの利用法",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
@@ -446,6 +453,13 @@
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "Conflict の解消",
     "text": "Conflict の解消\nVSCode でのdemo"
+  },
+  {
+    "objectID": "part1/lecture.html#登場人物を整理する",
+    "href": "part1/lecture.html#登場人物を整理する",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
+    "section": "登場人物を整理する",
+    "text": "登場人物を整理する\nリモートリポジトリ ローカルリポジトリ"
   },
   {
     "objectID": "part1/lecture.html#お疲れ様でした",
