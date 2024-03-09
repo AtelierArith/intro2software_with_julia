@@ -329,6 +329,14 @@ $ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行
 ## 多重ディスパッチ
 
 - 微分方程式のソルバーの実装
+  - [大槻純也, Pythonによる計算物理, 森北出版](https://www.morikita.co.jp/books/mid/017081) の第2章を題材にしています．
+
+---
+
+## LU 分解，QR 分解
+
+- Unicode 文字をふんだんに使ってかけますよを説明するためのもの
+- [金田 行雄 監修・ 笹井 理生 監修・ 張 紹良 編，計算科学のための基本数理アルゴリズム， 共立出版](https://www.kyoritsu-pub.co.jp/book/b10003182.html) の `第 2 章 線形方程式の数値アルゴリズム` に出てくる`グラム–シュミットの直交化法`と `LU 分解`のアルゴリズムを Julia に移植している．
 
 ---
 
@@ -352,6 +360,14 @@ $ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行
 - 余裕がある人向け
 - それなりの規模のパッケージ
 - 各自の慣れている言語で実装してみるといいかも．
+
+---
+
+## jldev_rye
+
+- 余裕がある人向け
+- Julia と Python の相互連携ができることを説明するためのリポジトリ
+  - [jldev_rye](https://github.com/terasakisatoshi/jldev_rye)
 
 ---
 
