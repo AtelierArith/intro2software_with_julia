@@ -12,4 +12,7 @@ $ cd intro2software_with_julia
 $ quarto preview
 ```
 
+- このページは [Quarto](https://quarto.org/) を使って構築されている．qmd ファイルは [こちら](https://github.com/AtelierArith/intro2software_with_julia) で管理されている．読者は教育・研究目的であれば自由に使用ができる．
+
 Your contribution is welcome
+
