@@ -18,7 +18,7 @@
     "href": "index.html#講義資料のリンク",
     "title": "AtelierArith の 計算物理春の学校 2024 講義ノート",
     "section": "講義資料のリンク",
-    "text": "講義資料のリンク\n\nPart1\n\nOkinawaCompPhysFoodSurvey2024.jl\n\nPart2\n\nintro2software_with_julia_pluto_materials\n\nPreparation"
+    "text": "講義資料のリンク\n\nPart1\n\nOkinawaCompPhysFoodSurvey2024.jl\nconflict_iyada\n\nPart2\n\nintro2software_with_julia_pluto_materials\n\nPreparation"
   },
   {
     "objectID": "index.html#その他",
@@ -473,14 +473,7 @@
     "href": "part1/lecture.html#conflict-の解消",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "Conflict の解消",
-    "text": "Conflict の解消\nVSCode でのdemo"
-  },
-  {
-    "objectID": "part1/lecture.html#登場人物を整理する",
-    "href": "part1/lecture.html#登場人物を整理する",
-    "title": "Juliaを使ったソフトウェア開発入門Part1",
-    "section": "登場人物を整理する",
-    "text": "登場人物を整理する\nリモートリポジトリ ローカルリポジトリ"
+    "text": "Conflict の解消\nVSCode でのdemo\nhttps://github.com/terasakisatoshi/conflict_iyada"
   },
   {
     "objectID": "part1/lecture.html#お疲れ様でした",
