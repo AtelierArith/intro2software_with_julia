@@ -140,6 +140,12 @@ format:
 
 ---
 
+## こんな感じ
+
+<img width="840" alt="image" src="https://github.com/AtelierArith/intro2software_with_julia/assets/16760547/08f5aabd-0f2d-4e3f-9ee1-0d1275d45813">
+
+---
+
 ## さらにみんなにとって大変なこと
 
 - 今まで触れたことはソフトウェアにフォーカスした話
