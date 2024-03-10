@@ -51,6 +51,7 @@ format:
     - GitHub の Issue/Discussion を利用して
 - 誤り・誤植があったらこっそり直して
   - Pull Request を送ってください
+- できる人はガンガン進んでもらって構わない
 - 周りに困ってる人がいたら助けてあげて
   - 参加者の専門・学年・プログラミング経験はみんな違う．
   - みんなナカマ・コワクナイヨ
@@ -569,6 +570,8 @@ revert によって過去の変更を打ち消す
 ## ハンズオン
 
 [ここの手順書を参考にします](https://github.com/AtelierArith/OkinawaCompPhysFoodSurvey2024.jl/issues/6)
+
+<img width="579" alt="image" src="https://github.com/AtelierArith/intro2software_with_julia/assets/16760547/8dc50878-1a5c-45d1-833a-0f879133c837">
 
 ---
 
