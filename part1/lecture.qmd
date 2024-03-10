@@ -718,12 +718,7 @@ $ git pull origin main
 
 VSCode でのdemo
 
----
-
-## 登場人物を整理する
-
-リモートリポジトリ
-ローカルリポジトリ
+https://github.com/terasakisatoshi/conflict_iyada
 
 ---
 
