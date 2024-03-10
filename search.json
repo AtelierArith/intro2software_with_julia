@@ -175,6 +175,13 @@
     "text": "さらに人類は欲張りなので\n\nもっと楽にしたいぞ！\n\n\nそうだ，楽をしよう, 効率化しよう (おやおや？)\n\n\n楽にする道具が生まれる\n\n\n楽をするために作った道具を前提とする開発手法が進む\n\n\nその道具を使いこなす必要がある（やな予感）\n\n\n便利な道具の存在を知らないと苦労する\n\n\n道具の使い方を知らないと参入できない\n\n\n道具の存在が自明になり伝え手がいないコミュニティは苦労する\n\n\nいろいろ便利になったけれどいろいろ大変な状況（イマココ）"
   },
   {
+    "objectID": "part1/lecture.html#こんな感じ",
+    "href": "part1/lecture.html#こんな感じ",
+    "title": "Juliaを使ったソフトウェア開発入門Part1",
+    "section": "こんな感じ",
+    "text": "こんな感じ"
+  },
+  {
     "objectID": "part1/lecture.html#さらにみんなにとって大変なこと",
     "href": "part1/lecture.html#さらにみんなにとって大変なこと",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
@@ -368,7 +375,7 @@
     "href": "part1/lecture.html#wordcloud.jl",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "WordCloud.jl",
-    "text": "WordCloud.jl\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwordcloudOkinawaCompPhysFoodSurvey2024.jl をみんなで育てよう"
+    "text": "WordCloud.jl\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwordcloudOkinawaCompPhysFoodSurvey2024.jl をみんなで育てよう"
   },
   {
     "objectID": "part1/lecture.html#fork",
