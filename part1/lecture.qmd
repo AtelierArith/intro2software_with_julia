@@ -598,6 +598,7 @@ revert によって過去の変更を打ち消す
 
 ## 各自がすること
 
+[ここの手順書を参考にします](https://github.com/AtelierArith/OkinawaCompPhysFoodSurvey2024.jl/issues/6)
 - フォークしたリポジトリは編集ができる
 - クローン
 - ブランチを作る
@@ -612,7 +613,7 @@ git clone ...
 cd ...
 julia --project interactive.jl
 git switch -c "<your-gh-name>/okinawa-food"
-cat polls/<your-gh-name>/food/Data.toml
+cat poll/<your-gh-name>/food/Data.toml
 ```
 
 ---
@@ -620,8 +621,8 @@ cat polls/<your-gh-name>/food/Data.toml
 ## 素朴に編集をする場合
 
 ```console
-mkdir -p polls/<your-gh-name>/food
-polls/<your-gh-name>/food/Data.toml
+mkdir -p poll/<your-gh-name>/food
+poll/<your-gh-name>/food/Data.toml
 ```
 
 ```toml
