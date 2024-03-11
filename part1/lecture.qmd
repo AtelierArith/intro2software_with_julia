@@ -598,6 +598,7 @@ revert によって過去の変更を打ち消す
 
 ## 各自がすること
 
+[ここの手順書を参考にします](https://github.com/AtelierArith/OkinawaCompPhysFoodSurvey2024.jl/issues/6)
 - フォークしたリポジトリは編集ができる
 - クローン
 - ブランチを作る
