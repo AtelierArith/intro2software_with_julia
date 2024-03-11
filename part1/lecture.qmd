@@ -612,7 +612,7 @@ git clone ...
 cd ...
 julia --project interactive.jl
 git switch -c "<your-gh-name>/okinawa-food"
-cat polls/<your-gh-name>/food/Data.toml
+cat poll/<your-gh-name>/food/Data.toml
 ```
 
 ---
@@ -620,8 +620,8 @@ cat polls/<your-gh-name>/food/Data.toml
 ## 素朴に編集をする場合
 
 ```console
-mkdir -p polls/<your-gh-name>/food
-polls/<your-gh-name>/food/Data.toml
+mkdir -p poll/<your-gh-name>/food
+poll/<your-gh-name>/food/Data.toml
 ```
 
 ```toml
