@@ -375,7 +375,7 @@
     "href": "part1/lecture.html#wordcloud.jl",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "WordCloud.jl",
-    "text": "WordCloud.jl\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwordcloudOkinawaCompPhysFoodSurvey2024.jl をみんなで育てよう"
+    "text": "WordCloud.jl\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwordcloudOkinawaCompPhysFoodSurvey2024.jl をみんなで育てよう"
   },
   {
     "objectID": "part1/lecture.html#fork",
@@ -389,21 +389,21 @@
     "href": "part1/lecture.html#各自がすること",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "各自がすること",
-    "text": "各自がすること\n\nフォークしたリポジトリは編集ができる\nクローン\nブランチを作る\n次のページへ"
+    "text": "各自がすること\nここの手順書を参考にします - フォークしたリポジトリは編集ができる - クローン - ブランチを作る - 次のページへ"
   },
   {
     "objectID": "part1/lecture.html#julia-をインストールされた方は",
     "href": "part1/lecture.html#julia-をインストールされた方は",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "Julia をインストールされた方は",
-    "text": "Julia をインストールされた方は\ngit clone ...\ncd ...\njulia --project interactive.jl\ngit switch -c \"&lt;your-gh-name&gt;/okinawa-food\"\ncat polls/&lt;your-gh-name&gt;/food/Data.toml"
+    "text": "Julia をインストールされた方は\ngit clone ...\ncd ...\njulia --project interactive.jl\ngit switch -c \"&lt;your-gh-name&gt;/okinawa-food\"\ncat poll/&lt;your-gh-name&gt;/food/Data.toml"
   },
   {
     "objectID": "part1/lecture.html#素朴に編集をする場合",
     "href": "part1/lecture.html#素朴に編集をする場合",
     "title": "Juliaを使ったソフトウェア開発入門Part1",
     "section": "素朴に編集をする場合",
-    "text": "素朴に編集をする場合\nmkdir -p polls/&lt;your-gh-name&gt;/food\npolls/&lt;your-gh-name&gt;/food/Data.toml\nitems=[\"ヤギの刺身\"]"
+    "text": "素朴に編集をする場合\nmkdir -p poll/&lt;your-gh-name&gt;/food\npoll/&lt;your-gh-name&gt;/food/Data.toml\nitems=[\"ヤギの刺身\"]"
   },
   {
     "objectID": "part1/lecture.html#ブランチ作成コミットプッシュ",
