@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AtelierArith の 計算物理春の学校 2024 講義ノート",
-    "section": "",
-    "text": "本講義では計算物理春の学校を受講する上で基礎となるプログラミング・ソフトウェア開発の基礎を学ぶ．\n講義の前半は研究開発のために行うソフトウェア開発のワークフローを紹介する．\n具体的にはソースコードを管理する Git および Git リポジトリをオンラインで管理する GitHub の使い方について触れる．また GitHub は他者とのコラボレーションを可能とするプラットフォームの役割を果たすことを理解するために 事前に用意したリポジトリに対してプルリクエストを送りコントリビューションをすることを 体験する．受講者は与えられたツールを単に利用する立場から脱却し，我々は個々の能力を外部に発信する機会が与えられており， 作る側・造る側・創る側の立場になれることを実感できるだろう．これらのワークフローは開発初期のクローズドな環境でも利用できる． 受講の際に得られた知識を今後の研究活動の促進に役立ってもらいたい．\n講義の後半は前半に触れたワークフローを実践する材料としてプログラミング言語 Julia を用いる．小規模な開発を VS Code，Pluto Notebook上で行いプロトタイプの作成，実装，テストの記述のサイクルを行う効率よく行う方法を紹介する．必要に応じて Python，Jupyter Notebook も含めたハンズオン・ライブコーディングもする．\n講義に用いるノート，環境構築に関するノートはなるべく公開する予定である．各自の今後の学習に役に立ってほしいと考えている． 計算物理の研究室ではソフトウェアは単にツール・道具とみなされ体系的な学習リソースに出会える機会が少なく， 個々のアドホックなスキルの習得によって苦痛を味わいながら研究を進めざるを得ないのが現実である． 本講義がそういった課題の解決にいくつか解決・貢献できれば幸いである．"
-  },
-  {
-    "objectID": "index.html#概要",
-    "href": "index.html#概要",
-    "title": "AtelierArith の 計算物理春の学校 2024 講義ノート",
-    "section": "",
-    "text": "本講義では計算物理春の学校を受講する上で基礎となるプログラミング・ソフトウェア開発の基礎を学ぶ．\n講義の前半は研究開発のために行うソフトウェア開発のワークフローを紹介する．\n具体的にはソースコードを管理する Git および Git リポジトリをオンラインで管理する GitHub の使い方について触れる．また GitHub は他者とのコラボレーションを可能とするプラットフォームの役割を果たすことを理解するために 事前に用意したリポジトリに対してプルリクエストを送りコントリビューションをすることを 体験する．受講者は与えられたツールを単に利用する立場から脱却し，我々は個々の能力を外部に発信する機会が与えられており， 作る側・造る側・創る側の立場になれることを実感できるだろう．これらのワークフローは開発初期のクローズドな環境でも利用できる． 受講の際に得られた知識を今後の研究活動の促進に役立ってもらいたい．\n講義の後半は前半に触れたワークフローを実践する材料としてプログラミング言語 Julia を用いる．小規模な開発を VS Code，Pluto Notebook上で行いプロトタイプの作成，実装，テストの記述のサイクルを行う効率よく行う方法を紹介する．必要に応じて Python，Jupyter Notebook も含めたハンズオン・ライブコーディングもする．\n講義に用いるノート，環境構築に関するノートはなるべく公開する予定である．各自の今後の学習に役に立ってほしいと考えている． 計算物理の研究室ではソフトウェアは単にツール・道具とみなされ体系的な学習リソースに出会える機会が少なく， 個々のアドホックなスキルの習得によって苦痛を味わいながら研究を進めざるを得ないのが現実である． 本講義がそういった課題の解決にいくつか解決・貢献できれば幸いである．"
-  },
-  {
-    "objectID": "index.html#講義資料のリンク",
-    "href": "index.html#講義資料のリンク",
-    "title": "AtelierArith の 計算物理春の学校 2024 講義ノート",
-    "section": "講義資料のリンク",
-    "text": "講義資料のリンク\n\nPart1\n\nOkinawaCompPhysFoodSurvey2024.jl\nconflict_iyada\n\nPart2\n\nintro2software_with_julia_pluto_materials\n\nPreparation"
-  },
-  {
-    "objectID": "index.html#その他",
-    "href": "index.html#その他",
-    "title": "AtelierArith の 計算物理春の学校 2024 講義ノート",
-    "section": "その他",
-    "text": "その他\n\nこのページは Quarto を使って構築されている．qmd ファイルは こちら で管理されている．読者は教育・研究目的であれば自由に使用ができる．"
-  },
-  {
     "objectID": "preparation/lecture.html#忙しい",
     "href": "preparation/lecture.html#忙しい",
     "title": "Juliaを使ったソフトウェア開発入門予習資料",
@@ -124,6 +96,202 @@
     "title": "Juliaを使ったソフトウェア開発入門予習資料",
     "section": "お疲れんこん",
     "text": "お疲れんこん\n(お疲れ様でした)"
+  },
+  {
+    "objectID": "part2/lecture.html#概要",
+    "href": "part2/lecture.html#概要",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "概要",
+    "text": "概要\n\nソフトウェア入門講義\n\n数値計算をはじめとする研究用のプログラム\nプログラムを書くための便利なツールやサービスの紹介"
+  },
+  {
+    "objectID": "part2/lecture.html#受講者へのお願い",
+    "href": "part2/lecture.html#受講者へのお願い",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "受講者へのお願い",
+    "text": "受講者へのお願い\n\n適宜質問して\n\nディスカッションして\n\nGitHub の Issue/Discussion を利用して\nIssue 作って\n\n\n誤り・誤植があったら\n\nPull Request を送ってください\n\n周りに困ってる人がいたら助けてあげて\n\n参加者の専門・学年・プログラミング経験はみんな違う．\nみんなナカマ・コワクナイヨ"
+  },
+  {
+    "objectID": "part2/lecture.html#ここでの-julia-とは",
+    "href": "part2/lecture.html#ここでの-julia-とは",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "ここでの Julia とは",
+    "text": "ここでの Julia とは\n\nプログラミング言語の一つ\n2012 年 Why We Created Julia に発表. 開発は 2009 年ごろから\n\nJeff Bezanson, Stefan Karpinski, Viral B. Shah, and Alan Edelman\n冒頭で In short, because we are greedy. とあるように既存のプログラミング言語の良いところを取り入れた言語\n\n高級言語の開発体験と実行速度の両立を図っている:\n\nWhy We Created Julia\n\nWe want the speed of C with the dynamism of Ruby\n(Did we mention it should be as fast as C?)"
+  },
+  {
+    "objectID": "part2/lecture.html#julia-の良いところ",
+    "href": "part2/lecture.html#julia-の良いところ",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "Julia の良いところ",
+    "text": "Julia の良いところ\n\nUnicode 文字が変数として使える\n\njulia&gt; pi\nπ = 3.1415926535897...\n\njulia&gt; π # \\pi TAB\nπ = 3.1415926535897...\n他にも\njulia&gt; α, β, ..., ζ # \\alpha TAB\njulia&gt; x₁, x², xᵢ₍ⱼ₊₁₎\njulia&gt; xₘᵢₙ, xₘₐₓ, xᴺ\njulia&gt; x̂ # x\\hat TAB"
+  },
+  {
+    "objectID": "part2/lecture.html#julia-の良いところ-1",
+    "href": "part2/lecture.html#julia-の良いところ-1",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "Julia の良いところ",
+    "text": "Julia の良いところ\n\nインストールが容易\n\n高速なプログラムを書くために「別のプログラミング言語を使う選択」を強制させない\n\n多重ディスパッチによる柔軟なインターフェースの提供\nPython などの他の言語との連携\n\nすでにあるものはありがたく使おう\n徐々に Pure Julia なもパッケージも増えている\n\nパッケージ開発参加への参入しやすさ\n\nコードは GitHub などのプラットフォーム上で OSS として公開されている\nGit リポジトリによるローカルレジストリ"
+  },
+  {
+    "objectID": "part2/lecture.html#年時点での状況",
+    "href": "part2/lecture.html#年時点での状況",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "2024 年時点での状況",
+    "text": "2024 年時点での状況\n\n2024 年 Julia 1.10.2 が最新安定版\n1.9 系から TTFL, TTFX 問題が改善されている\n\njulia&gt; ttfl = @elapsed using Plots\njulia&gt; ttfx = @elapsed display(plot(sin))\n\n\n\nversion\nttfl\nttfx\n\n\n\n\n1.8.5\n4.087831943\n4.493850074\n\n\n1.9.4\n1.865882906\n0.586155723\n\n\n1.10.2\n1.087610856\n0.568768117"
+  },
+  {
+    "objectID": "part2/lecture.html#計測方法",
+    "href": "part2/lecture.html#計測方法",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "計測方法",
+    "text": "計測方法\njulia +1.8, julia +1.9, julia +1.10 で各々対応するバージョンの Julia REPL を起動後下記を実行する:\njulia&gt; using Pkg; Pkg.activate(; temp=true); Pkg.add(name=\"Plots\", version=\"1.39.0\"); ttfl = (@elapsed using Plots); (ttfx = @elapsed display(plot(sin))); @show (ttfl, ttfx)"
+  },
+  {
+    "objectID": "part2/lecture.html#julia-のインストール",
+    "href": "part2/lecture.html#julia-のインストール",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "Julia のインストール",
+    "text": "Julia のインストール\nWindows ユーザ\nwinget install julia -s msstore\nmacOS, Linux, WSL2 ユーザ\ncurl -fsSL https://install.julialang.org | sh\njulia と juliaup というコマンドが使用できる"
+  },
+  {
+    "objectID": "part2/lecture.html#動作確認",
+    "href": "part2/lecture.html#動作確認",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "動作確認",
+    "text": "動作確認\nHello World を表示\n$ julia\n               _\n   _       _ _(_)_     |  Documentation: https://docs.julialang.org\n  (_)     | (_) (_)    |\n   _ _   _| |_  __ _   |  Type \"?\" for help, \"]?\" for Pkg help.\n  | | | | | | |/ _` |  |\n  | | |_| | | | (_| |  |  Version 1.10.2 (2024-03-01)\n _/ |\\__'_|_|_|\\__'_|  |  Official https://julialang.org/ release\n|__/                   |\n\njulia&gt; println(\"Hello World\")\nHello World\n\njulia&gt; println(\"Hello\"); println(\"World\")\nHello\nWorld\n\njulia&gt; print(\"Hello\"); print(\" \"); println(\"World\")\nHello World\n\njulia&gt; # println は末尾に改行を挿入する．Python の print 相当"
+  },
+  {
+    "objectID": "part2/lecture.html#その他",
+    "href": "part2/lecture.html#その他",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "その他",
+    "text": "その他\n最低限の動作確認\n$ julia --version\njulia version 1.10.2\n動作環境の表示\njulia&gt; versioninfo()\nJulia Version 1.10.2\nCommit bd47eca2c8a (2024-03-01 10:14 UTC)\nBuild Info:\n  Official https://julialang.org/ release\nPlatform Info:\n  OS: macOS (x86_64-apple-darwin22.4.0)\n  CPU: 16 × Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz\n  WORD_SIZE: 64\n  LIBM: libopenlibm\n  LLVM: libLLVM-15.0.7 (ORCJIT, skylake)\nThreads: 1 default, 0 interactive, 1 GC (on 16 virtual cores)\nEnvironment:\n  JULIA_EDITOR = subl\n  JULIA_PROJECT = @.\n\njulia&gt;"
+  },
+  {
+    "objectID": "part2/lecture.html#アップデートは定期的に",
+    "href": "part2/lecture.html#アップデートは定期的に",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "アップデートは定期的に",
+    "text": "アップデートは定期的に\n\n1.10 系が現時点で最新安定版. 今後 1.11 がリリースされたらバージョンを上げていきましょう\n\n$ julia\nThe latest version of Julia in the `release` channel is 1.10.2+0.x64.apple.darwin14. You currently have `1.10.1+0.x64.apple.darwin14` installed. Run:\n\n  juliaup update\n\nto install Julia 1.10.2+0.x64.apple.darwin14 and update the `release` channel to that version.\n\njuliaup update すればいい感じにセットアップしてくれる．"
+  },
+  {
+    "objectID": "part2/lecture.html#juliaup-を使うメリット",
+    "href": "part2/lecture.html#juliaup-を使うメリット",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "Juliaup を使うメリット",
+    "text": "Juliaup を使うメリット\n\njuliaup update でデフォルトで使用する Julia をアップデートしてくれる\njuliaup add 1.8 && julia +1.8 で Julia 1.8 を使用できる"
+  },
+  {
+    "objectID": "part2/lecture.html#いろんな場所で-julia-は動く",
+    "href": "part2/lecture.html#いろんな場所で-julia-は動く",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "いろんな場所で Julia は動く",
+    "text": "いろんな場所で Julia は動く\n\n皆さんがお持ちのマシンは Tier 1 なはず\n\n64 bit Raspberry Pi OS での Raspberry Pi 4, 5 でも動く\nLatticeQCD.jl のテストは通りました\n\n結構すごいことだと思うよ\n\n\nAmazon SageMaker Studio Lab, Vertex AI など SSH 接続や Jupyter Notebook を使えるインスタンスを提供するプラットフォーム\nGitHub Codespaces\nDocker イメージが配布されてるのでカスタマイズもできる\nJuliaHub (一番楽)"
+  },
+  {
+    "objectID": "part2/lecture.html#juliahub",
+    "href": "part2/lecture.html#juliahub",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "JuliaHub",
+    "text": "JuliaHub\n\nVS Code ライクな UI で利用できる SaaS\nPluto Notebook を立ち上げることができる\n20 時間の無料枠\n会場のインターネットが不安定な場合はこっちを使ってみるといいかも\nアカウントはこちらから作れます https://juliahub.com/"
+  },
+  {
+    "objectID": "part2/lecture.html#pluto",
+    "href": "part2/lecture.html#pluto",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "Pluto",
+    "text": "Pluto\njulia&gt; using Pkg; Pkg.add(\"Pluto\")\njulia&gt; using Pluto; Pluto.run()\nリアクティブなのが特徴"
+  },
+  {
+    "objectID": "part2/lecture.html#ijulia",
+    "href": "part2/lecture.html#ijulia",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "IJulia",
+    "text": "IJulia\njulia&gt; using Pkg; Pkg.add(\"IJulia\")\njulia&gt; using IJulia; IJulia.installkernel(\"julia\")\nクラウド環境で↑を実行すれば Julia のカーネルがインストールされる"
+  },
+  {
+    "objectID": "part2/lecture.html#jupyter-notebook-じゃだめなのか",
+    "href": "part2/lecture.html#jupyter-notebook-じゃだめなのか",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "Jupyter Notebook じゃだめなのか？",
+    "text": "Jupyter Notebook じゃだめなのか？\n\n別に構わない\n\n好みが分かれる\n\nJupyter は任意のタイミングで任意のセルを任意の順序で実行することができてしまう\n\n意図しない結果を出してそれにより意思決定をしてしまう可能性がある\n他の人が試したときに再現しないような成果ができてしまう可能性がある\nあなたの研究の有用性を裏付ける根拠がそのメチャクチャなノートブックに依るものであるならばそれは恐ろしい未来が待っている"
+  },
+  {
+    "objectID": "part2/lecture.html#jupytext",
+    "href": "part2/lecture.html#jupytext",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "jupytext",
+    "text": "jupytext\n$ pip3 install jupytext\n$ jupytext --to ipynb sample.jl # jl から ipynb を作る\n$ jupytext --to jl sample.ipynb # ipynb から jl に変換\n$ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行して ipynb を作る\n--set-kernel を使ってカーネルを指定できる"
+  },
+  {
+    "objectID": "part2/lecture.html#hello-world",
+    "href": "part2/lecture.html#hello-world",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "Hello world",
+    "text": "Hello world\n簡単なコードを動かしてみる"
+  },
+  {
+    "objectID": "part2/lecture.html#反復関数系",
+    "href": "part2/lecture.html#反復関数系",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "反復関数系",
+    "text": "反復関数系\n型安定 メモリアロケーション ベンチマーク"
+  },
+  {
+    "objectID": "part2/lecture.html#多重ディスパッチ",
+    "href": "part2/lecture.html#多重ディスパッチ",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "多重ディスパッチ",
+    "text": "多重ディスパッチ\n\nロジスティック方程式をナイーブなソルバーを作って解いてみる．\n\n大槻純也, Pythonによる計算物理, 森北出版 の第2章を題材にしています．"
+  },
+  {
+    "objectID": "part2/lecture.html#lu-分解qr-分解",
+    "href": "part2/lecture.html#lu-分解qr-分解",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "LU 分解，QR 分解",
+    "text": "LU 分解，QR 分解\n\nUnicode 文字をふんだんに使ってかけますよを説明するためのもの\n金田 行雄 監修・ 笹井 理生 監修・ 張 紹良 編，計算科学のための基本数理アルゴリズム， 共立出版 の 第 2 章 線形方程式の数値アルゴリズム に出てくるグラム–シュミットの直交化法と LU 分解のアルゴリズムを Julia に移植している．"
+  },
+  {
+    "objectID": "part2/lecture.html#アトラクタ",
+    "href": "part2/lecture.html#アトラクタ",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "アトラクタ",
+    "text": "アトラクタ\nDifferentialEquations.jl の例"
+  },
+  {
+    "objectID": "part2/lecture.html#atelierarithgeometryobjects.jl",
+    "href": "part2/lecture.html#atelierarithgeometryobjects.jl",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "AtelierArith/GeometryObjects.jl",
+    "text": "AtelierArith/GeometryObjects.jl\n\n余裕がある人向け\nほどほどの規模のパッケージ\n最近メンテナンスしてないので不具合があればプルリクエストお待ちしております"
+  },
+  {
+    "objectID": "part2/lecture.html#atelierarithrandomlogos.jl",
+    "href": "part2/lecture.html#atelierarithrandomlogos.jl",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "AtelierArith/RandomLogos.jl",
+    "text": "AtelierArith/RandomLogos.jl\n\nConnor Anderson と Ryan Farrell によるImproving Fractal Pre-training の Julia 実装\n余裕がある人向け\nそれなりの規模のパッケージ\n各自の慣れている言語で実装してみるといいかも．"
+  },
+  {
+    "objectID": "part2/lecture.html#jldev_rye",
+    "href": "part2/lecture.html#jldev_rye",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "jldev_rye",
+    "text": "jldev_rye\n\n余裕がある人向け\nJulia と Python の相互連携ができることを説明するためのリポジトリ\n\njldev_rye"
+  },
+  {
+    "objectID": "part2/lecture.html#パッケージ開発",
+    "href": "part2/lecture.html#パッケージ開発",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "パッケージ開発",
+    "text": "パッケージ開発\n\nJulia の REPL で時計を表示/そして公式パッケージに登録まで\nLocalRegistry.jl: 公式パッケージにするのが億劫な JuliaLang developer への処方箋\n未出版・研究段階中のパッケージを管理したい\n\nPkgTemplates.jl で雛形を作成しそこに機能を追加していく\nLocalRegistry.jl を使ってレジストリを作成\nそのレジストリに登録\n\nこれだけで丸一日かかりそうなので知りたい方は個別に相談しましょう"
+  },
+  {
+    "objectID": "part2/lecture.html#まとめ",
+    "href": "part2/lecture.html#まとめ",
+    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "section": "まとめ",
+    "text": "まとめ\n\nいろんな道具を紹介した\n手を動かす方法を紹介した\n単に使うだけではなく能力を発揮できる機会を与えられている\nJulia を導入しました\n今後の研究に役に立てていただければ幸いです"
   },
   {
     "objectID": "part1/lecture.html#概要",
@@ -490,199 +658,31 @@
     "text": "お疲れ様でした"
   },
   {
-    "objectID": "part2/lecture.html#概要",
-    "href": "part2/lecture.html#概要",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "概要",
-    "text": "概要\n\nソフトウェア入門講義\n\n数値計算をはじめとする研究用のプログラム\nプログラムを書くための便利なツールやサービスの紹介"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AtelierArith の 計算物理春の学校 2024 講義ノート",
+    "section": "",
+    "text": "本講義では計算物理 春の学校 2024を受講する上で基礎となるプログラミング・ソフトウェア開発の基礎を学ぶ．\n講義の前半は研究開発のために行うソフトウェア開発のワークフローを紹介する．\n具体的にはソースコードを管理する Git および Git リポジトリをオンラインで管理する GitHub の使い方について触れる．また GitHub は他者とのコラボレーションを可能とするプラットフォームの役割を果たすことを理解するために 事前に用意したリポジトリに対してプルリクエストを送りコントリビューションをすることを 体験する．受講者は与えられたツールを単に利用する立場から脱却し，我々は個々の能力を外部に発信する機会が与えられており， 作る側・造る側・創る側の立場になれることを実感できるだろう．これらのワークフローは開発初期のクローズドな環境でも利用できる． 受講の際に得られた知識を今後の研究活動の促進に役立ってもらいたい．\n講義の後半は前半に触れたワークフローを実践する材料としてプログラミング言語 Julia を用いる．小規模な開発を VS Code，Pluto Notebook上で行いプロトタイプの作成，実装，テストの記述のサイクルを行う効率よく行う方法を紹介する．必要に応じて Python，Jupyter Notebook も含めたハンズオン・ライブコーディングもする．\n講義に用いるノート，環境構築に関するノートはなるべく公開する予定である．各自の今後の学習に役に立ってほしいと考えている． 計算物理の研究室ではソフトウェアは単にツール・道具とみなされ体系的な学習リソースに出会える機会が少なく， 個々のアドホックなスキルの習得によって苦痛を味わいながら研究を進めざるを得ないのが現実である． 本講義がそういった課題の解決にいくつか解決・貢献できれば幸いである．"
   },
   {
-    "objectID": "part2/lecture.html#受講者へのお願い",
-    "href": "part2/lecture.html#受講者へのお願い",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "受講者へのお願い",
-    "text": "受講者へのお願い\n\n適宜質問して\n\nディスカッションして\n\nGitHub の Issue/Discussion を利用して\nIssue 作って\n\n\n誤り・誤植があったら\n\nPull Request を送ってください\n\n周りに困ってる人がいたら助けてあげて\n\n参加者の専門・学年・プログラミング経験はみんな違う．\nみんなナカマ・コワクナイヨ"
+    "objectID": "index.html#概要",
+    "href": "index.html#概要",
+    "title": "AtelierArith の 計算物理春の学校 2024 講義ノート",
+    "section": "",
+    "text": "本講義では計算物理 春の学校 2024を受講する上で基礎となるプログラミング・ソフトウェア開発の基礎を学ぶ．\n講義の前半は研究開発のために行うソフトウェア開発のワークフローを紹介する．\n具体的にはソースコードを管理する Git および Git リポジトリをオンラインで管理する GitHub の使い方について触れる．また GitHub は他者とのコラボレーションを可能とするプラットフォームの役割を果たすことを理解するために 事前に用意したリポジトリに対してプルリクエストを送りコントリビューションをすることを 体験する．受講者は与えられたツールを単に利用する立場から脱却し，我々は個々の能力を外部に発信する機会が与えられており， 作る側・造る側・創る側の立場になれることを実感できるだろう．これらのワークフローは開発初期のクローズドな環境でも利用できる． 受講の際に得られた知識を今後の研究活動の促進に役立ってもらいたい．\n講義の後半は前半に触れたワークフローを実践する材料としてプログラミング言語 Julia を用いる．小規模な開発を VS Code，Pluto Notebook上で行いプロトタイプの作成，実装，テストの記述のサイクルを行う効率よく行う方法を紹介する．必要に応じて Python，Jupyter Notebook も含めたハンズオン・ライブコーディングもする．\n講義に用いるノート，環境構築に関するノートはなるべく公開する予定である．各自の今後の学習に役に立ってほしいと考えている． 計算物理の研究室ではソフトウェアは単にツール・道具とみなされ体系的な学習リソースに出会える機会が少なく， 個々のアドホックなスキルの習得によって苦痛を味わいながら研究を進めざるを得ないのが現実である． 本講義がそういった課題の解決にいくつか解決・貢献できれば幸いである．"
   },
   {
-    "objectID": "part2/lecture.html#ここでの-julia-とは",
-    "href": "part2/lecture.html#ここでの-julia-とは",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "ここでの Julia とは",
-    "text": "ここでの Julia とは\n\nプログラミング言語の一つ\n2012 年 Why We Created Julia に発表. 開発は 2009 年ごろから\n\nJeff Bezanson, Stefan Karpinski, Viral B. Shah, and Alan Edelman\n冒頭で In short, because we are greedy. とあるように既存のプログラミング言語の良いところを取り入れた言語\n\n高級言語の開発体験と実行速度の両立を図っている:\n\nWhy We Created Julia\n\nWe want the speed of C with the dynamism of Ruby\n(Did we mention it should be as fast as C?)"
+    "objectID": "index.html#講義資料のリンク",
+    "href": "index.html#講義資料のリンク",
+    "title": "AtelierArith の 計算物理春の学校 2024 講義ノート",
+    "section": "講義資料のリンク",
+    "text": "講義資料のリンク\n\nPart1\n\nOkinawaCompPhysFoodSurvey2024.jl\nconflict_iyada\n\nPart2\n\nintro2software_with_julia_pluto_materials\n\nPreparation"
   },
   {
-    "objectID": "part2/lecture.html#julia-の良いところ",
-    "href": "part2/lecture.html#julia-の良いところ",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "Julia の良いところ",
-    "text": "Julia の良いところ\n\nUnicode 文字が変数として使える\n\njulia&gt; pi\nπ = 3.1415926535897...\n\njulia&gt; π # \\pi TAB\nπ = 3.1415926535897...\n他にも\njulia&gt; α, β, ..., ζ # \\alpha TAB\njulia&gt; x₁, x², xᵢ₍ⱼ₊₁₎\njulia&gt; xₘᵢₙ, xₘₐₓ, xᴺ\njulia&gt; x̂ # x\\hat TAB"
-  },
-  {
-    "objectID": "part2/lecture.html#julia-の良いところ-1",
-    "href": "part2/lecture.html#julia-の良いところ-1",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "Julia の良いところ",
-    "text": "Julia の良いところ\n\nインストールが容易\n\n高速なプログラムを書くために「別のプログラミング言語を使う選択」を強制させない\n\n多重ディスパッチによる柔軟なインターフェースの提供\nPython などの他の言語との連携\n\nすでにあるものはありがたく使おう\n徐々に Pure Julia なもパッケージも増えている\n\nパッケージ開発参加への参入しやすさ\n\nコードは GitHub などのプラットフォーム上で OSS として公開されている\nGit リポジトリによるローカルレジストリ"
-  },
-  {
-    "objectID": "part2/lecture.html#年時点での状況",
-    "href": "part2/lecture.html#年時点での状況",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "2024 年時点での状況",
-    "text": "2024 年時点での状況\n\n2024 年 Julia 1.10.2 が最新安定版\n1.9 系から TTFL, TTFX 問題が改善されている\n\njulia&gt; ttfl = @elapsed using Plots\njulia&gt; ttfx = @elapsed display(plot(sin))\n\n\n\nversion\nttfl\nttfx\n\n\n\n\n1.8.5\n4.087831943\n4.493850074\n\n\n1.9.4\n1.865882906\n0.586155723\n\n\n1.10.2\n1.087610856\n0.568768117"
-  },
-  {
-    "objectID": "part2/lecture.html#計測方法",
-    "href": "part2/lecture.html#計測方法",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "計測方法",
-    "text": "計測方法\njulia +1.8, julia +1.9, julia +1.10 で各々対応するバージョンの Julia REPL を起動後下記を実行する:\njulia&gt; using Pkg; Pkg.activate(; temp=true); Pkg.add(name=\"Plots\", version=\"1.39.0\"); ttfl = (@elapsed using Plots); (ttfx = @elapsed display(plot(sin))); @show (ttfl, ttfx)"
-  },
-  {
-    "objectID": "part2/lecture.html#julia-のインストール",
-    "href": "part2/lecture.html#julia-のインストール",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "Julia のインストール",
-    "text": "Julia のインストール\nWindows ユーザ\nwinget install julia -s msstore\nmacOS, Linux, WSL2 ユーザ\ncurl -fsSL https://install.julialang.org | sh\njulia と juliaup というコマンドが使用できる"
-  },
-  {
-    "objectID": "part2/lecture.html#動作確認",
-    "href": "part2/lecture.html#動作確認",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "動作確認",
-    "text": "動作確認\nHello World を表示\n$ julia\n               _\n   _       _ _(_)_     |  Documentation: https://docs.julialang.org\n  (_)     | (_) (_)    |\n   _ _   _| |_  __ _   |  Type \"?\" for help, \"]?\" for Pkg help.\n  | | | | | | |/ _` |  |\n  | | |_| | | | (_| |  |  Version 1.10.2 (2024-03-01)\n _/ |\\__'_|_|_|\\__'_|  |  Official https://julialang.org/ release\n|__/                   |\n\njulia&gt; println(\"Hello World\")\nHello World\n\njulia&gt; println(\"Hello\"); println(\"World\")\nHello\nWorld\n\njulia&gt; print(\"Hello\"); print(\" \"); println(\"World\")\nHello World\n\njulia&gt; # println は末尾に改行を挿入する．Python の print 相当"
-  },
-  {
-    "objectID": "part2/lecture.html#その他",
-    "href": "part2/lecture.html#その他",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
+    "objectID": "index.html#その他",
+    "href": "index.html#その他",
+    "title": "AtelierArith の 計算物理春の学校 2024 講義ノート",
     "section": "その他",
-    "text": "その他\n最低限の動作確認\n$ julia --version\njulia version 1.10.2\n動作環境の表示\njulia&gt; versioninfo()\nJulia Version 1.10.2\nCommit bd47eca2c8a (2024-03-01 10:14 UTC)\nBuild Info:\n  Official https://julialang.org/ release\nPlatform Info:\n  OS: macOS (x86_64-apple-darwin22.4.0)\n  CPU: 16 × Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz\n  WORD_SIZE: 64\n  LIBM: libopenlibm\n  LLVM: libLLVM-15.0.7 (ORCJIT, skylake)\nThreads: 1 default, 0 interactive, 1 GC (on 16 virtual cores)\nEnvironment:\n  JULIA_EDITOR = subl\n  JULIA_PROJECT = @.\n\njulia&gt;"
-  },
-  {
-    "objectID": "part2/lecture.html#アップデートは定期的に",
-    "href": "part2/lecture.html#アップデートは定期的に",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "アップデートは定期的に",
-    "text": "アップデートは定期的に\n\n1.10 系が現時点で最新安定版. 今後 1.11 がリリースされたらバージョンを上げていきましょう\n\n$ julia\nThe latest version of Julia in the `release` channel is 1.10.2+0.x64.apple.darwin14. You currently have `1.10.1+0.x64.apple.darwin14` installed. Run:\n\n  juliaup update\n\nto install Julia 1.10.2+0.x64.apple.darwin14 and update the `release` channel to that version.\n\njuliaup update すればいい感じにセットアップしてくれる．"
-  },
-  {
-    "objectID": "part2/lecture.html#juliaup-を使うメリット",
-    "href": "part2/lecture.html#juliaup-を使うメリット",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "Juliaup を使うメリット",
-    "text": "Juliaup を使うメリット\n\njuliaup update でデフォルトで使用する Julia をアップデートしてくれる\njuliaup add 1.8 && julia +1.8 で Julia 1.8 を使用できる"
-  },
-  {
-    "objectID": "part2/lecture.html#いろんな場所で-julia-は動く",
-    "href": "part2/lecture.html#いろんな場所で-julia-は動く",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "いろんな場所で Julia は動く",
-    "text": "いろんな場所で Julia は動く\n\n皆さんがお持ちのマシンは Tier 1 なはず\n\n64 bit Raspberry Pi OS での Raspberry Pi 4, 5 でも動く\nLatticeQCD.jl のテストは通りました\n\n結構すごいことだと思うよ\n\n\nAmazon SageMaker Studio Lab, Vertex AI など SSH 接続や Jupyter Notebook を使えるインスタンスを提供するプラットフォーム\nGitHub Codespaces\nDocker イメージが配布されてるのでカスタマイズもできる\nJuliaHub (一番楽)"
-  },
-  {
-    "objectID": "part2/lecture.html#juliahub",
-    "href": "part2/lecture.html#juliahub",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "JuliaHub",
-    "text": "JuliaHub\n\nVS Code ライクな UI で利用できる SaaS\nPluto Notebook を立ち上げることができる\n20 時間の無料枠\n会場のインターネットが不安定な場合はこっちを使ってみるといいかも\nアカウントはこちらから作れます https://juliahub.com/"
-  },
-  {
-    "objectID": "part2/lecture.html#pluto",
-    "href": "part2/lecture.html#pluto",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "Pluto",
-    "text": "Pluto\njulia&gt; using Pkg; Pkg.add(\"Pluto\")\njulia&gt; using Pluto; Pluto.run()\nリアクティブなのが特徴"
-  },
-  {
-    "objectID": "part2/lecture.html#ijulia",
-    "href": "part2/lecture.html#ijulia",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "IJulia",
-    "text": "IJulia\njulia&gt; using Pkg; Pkg.add(\"IJulia\")\njulia&gt; using IJulia; IJulia.installkernel(\"julia\")\nクラウド環境で↑を実行すれば Julia のカーネルがインストールされる"
-  },
-  {
-    "objectID": "part2/lecture.html#jupyter-notebook-じゃだめなのか",
-    "href": "part2/lecture.html#jupyter-notebook-じゃだめなのか",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "Jupyter Notebook じゃだめなのか？",
-    "text": "Jupyter Notebook じゃだめなのか？\n\n別に構わない\n\n好みが分かれる\n\nJupyter は任意のタイミングで任意のセルを任意の順序で実行することができてしまう\n\n意図しない結果を出してそれにより意思決定をしてしまう可能性がある\n他の人が試したときに再現しないような成果ができてしまう可能性がある\nあなたの研究の有用性を裏付ける根拠がそのメチャクチャなノートブックに依るものであるならばそれは恐ろしい未来が待っている"
-  },
-  {
-    "objectID": "part2/lecture.html#jupytext",
-    "href": "part2/lecture.html#jupytext",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "jupytext",
-    "text": "jupytext\n$ pip3 install jupytext\n$ jupytext --to ipynb sample.jl # jl から ipynb を作る\n$ jupytext --to jl sample.ipynb # ipynb から jl に変換\n$ jupytext --to ipynb --execute sample.jl # 変換時にプログラムを実行して ipynb を作る\n--set-kernel を使ってカーネルを指定できる"
-  },
-  {
-    "objectID": "part2/lecture.html#hello-world",
-    "href": "part2/lecture.html#hello-world",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "Hello world",
-    "text": "Hello world\n簡単なコードを動かしてみる"
-  },
-  {
-    "objectID": "part2/lecture.html#反復関数系",
-    "href": "part2/lecture.html#反復関数系",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "反復関数系",
-    "text": "反復関数系\n型安定 メモリアロケーション ベンチマーク"
-  },
-  {
-    "objectID": "part2/lecture.html#多重ディスパッチ",
-    "href": "part2/lecture.html#多重ディスパッチ",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "多重ディスパッチ",
-    "text": "多重ディスパッチ\n\nロジスティック方程式をナイーブなソルバーを作って解いてみる．\n\n大槻純也, Pythonによる計算物理, 森北出版 の第2章を題材にしています．"
-  },
-  {
-    "objectID": "part2/lecture.html#lu-分解qr-分解",
-    "href": "part2/lecture.html#lu-分解qr-分解",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "LU 分解，QR 分解",
-    "text": "LU 分解，QR 分解\n\nUnicode 文字をふんだんに使ってかけますよを説明するためのもの\n金田 行雄 監修・ 笹井 理生 監修・ 張 紹良 編，計算科学のための基本数理アルゴリズム， 共立出版 の 第 2 章 線形方程式の数値アルゴリズム に出てくるグラム–シュミットの直交化法と LU 分解のアルゴリズムを Julia に移植している．"
-  },
-  {
-    "objectID": "part2/lecture.html#アトラクタ",
-    "href": "part2/lecture.html#アトラクタ",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "アトラクタ",
-    "text": "アトラクタ\nDifferentialEquations.jl の例"
-  },
-  {
-    "objectID": "part2/lecture.html#atelierarithgeometryobjects.jl",
-    "href": "part2/lecture.html#atelierarithgeometryobjects.jl",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "AtelierArith/GeometryObjects.jl",
-    "text": "AtelierArith/GeometryObjects.jl\n\n余裕がある人向け\nほどほどの規模のパッケージ\n最近メンテナンスしてないので不具合があればプルリクエストお待ちしております"
-  },
-  {
-    "objectID": "part2/lecture.html#atelierarithrandomlogos.jl",
-    "href": "part2/lecture.html#atelierarithrandomlogos.jl",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "AtelierArith/RandomLogos.jl",
-    "text": "AtelierArith/RandomLogos.jl\n\nConnor Anderson と Ryan Farrell によるImproving Fractal Pre-training の Julia 実装\n余裕がある人向け\nそれなりの規模のパッケージ\n各自の慣れている言語で実装してみるといいかも．"
-  },
-  {
-    "objectID": "part2/lecture.html#jldev_rye",
-    "href": "part2/lecture.html#jldev_rye",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "jldev_rye",
-    "text": "jldev_rye\n\n余裕がある人向け\nJulia と Python の相互連携ができることを説明するためのリポジトリ\n\njldev_rye"
-  },
-  {
-    "objectID": "part2/lecture.html#パッケージ開発",
-    "href": "part2/lecture.html#パッケージ開発",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "パッケージ開発",
-    "text": "パッケージ開発\n\nJulia の REPL で時計を表示/そして公式パッケージに登録まで\nLocalRegistry.jl: 公式パッケージにするのが億劫な JuliaLang developer への処方箋\n未出版・研究段階中のパッケージを管理したい\n\nPkgTemplates.jl で雛形を作成しそこに機能を追加していく\nLocalRegistry.jl を使ってレジストリを作成\nそのレジストリに登録\n\nこれだけで丸一日かかりそうなので知りたい方は個別に相談しましょう"
-  },
-  {
-    "objectID": "part2/lecture.html#まとめ",
-    "href": "part2/lecture.html#まとめ",
-    "title": "Juliaを使ったソフトウェア開発入門Part2",
-    "section": "まとめ",
-    "text": "まとめ\n\nいろんな道具を紹介した\n手を動かす方法を紹介した\n単に使うだけではなく能力を発揮できる機会を与えられている\nJulia を導入しました\n今後の研究に役に立てていただければ幸いです"
+    "text": "その他\n\nこのページは Quarto を使って構築されている．qmd ファイルは こちら で管理されている．読者は教育・研究目的であれば自由に使用ができる．"
   }
 ]
